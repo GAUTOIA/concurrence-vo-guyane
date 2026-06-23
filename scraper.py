@@ -47,14 +47,14 @@ def fetch_stock():
             continue
 
         def txt(tag):
-            el = car.find(tag)
+            el = car.find(f".//{tag}")
             return el.text.strip() if el is not None and el.text else ""
 
-        price_raw = txt("priceB2c")
+        price_raw = txt("priceB2c") or txt("priceB2C") or txt("price")
         km_raw = txt("km")
         hp_raw = txt("hp")
 
-        photos = [img.text.strip() for img in car.findall(".//photos/photo") if img.text]
+        photos = [img.text.strip() for img in car.findall(".//image") if img.text]
 
         vehicles.append({
             "id": car.get("id", ""),
@@ -104,30 +104,29 @@ def search_cyphoma(make, model):
         resp = requests.get(url, headers=HEADERS, timeout=15)
         soup = BeautifulSoup(resp.text, "html.parser")
 
-        for card in soup.select("div.ad-container, div.annonce, article, li.ad"):
-            link_el = card.select_one("a[href*='annonces/voitures']")
-            if not link_el:
-                link_el = card.select_one("a")
-            if not link_el:
+        for card in soup.select("article.card--classified"):
+            title_el = card.select_one("h2, h3")
+            if not title_el:
+                continue
+            title = title_el.get_text(separator=" ", strip=True)
+
+            if not (make.lower() in title.lower() and model.lower() in title.lower()):
                 continue
 
-            title = link_el.get_text(separator=" ", strip=True)
-            if not any(w.lower() in title.lower() for w in [make.lower(), model.lower()]):
-                continue
-
-            # Exclure nos propres annonces ("Les Occasions by Guyane Automobile")
+            # Exclure nos propres annonces ("Les Occasions by Guyane Automobile" / "Guyane Auto")
             card_text = card.get_text(" ", strip=True).lower()
-            href = link_el.get("href", "")
-            if "guyane automobile" in card_text or "occasions by guyane" in card_text:
+            if any(k in card_text for k in ("guyane automobile", "occasions by guyane", "guyane auto")):
                 continue
+
+            link_el = card.select_one("a[href*='annonces/voitures']")
+            href = link_el.get("href", "") if link_el else ""
             if "guyane-automobile" in href.lower():
                 continue
-
-            if not href.startswith("http"):
+            if href and not href.startswith("http"):
                 href = "https://www.cyphoma.com" + href
 
-            price_el = card.select_one(".price, .prix, span.ad-price, strong")
-            km_el = card.select_one(".km, .mileage, [class*='km']")
+            price_el = card.select_one("[class*='price'], .t-bold.t-secondary")
+            km_el = card.select_one("[class*='km'], [class*='mileage']")
 
             results.append({
                 "source": "Cyphoma",
@@ -173,7 +172,7 @@ def search_leboncoin(page, make, model):
                 if not href.startswith("http"):
                     href = "https://www.leboncoin.fr" + href
 
-                if not any(w.lower() in title.lower() for w in [make.lower(), model.lower()]):
+                if not (make.lower() in title.lower() and model.lower() in title.lower()):
                     continue
 
                 # Try to get km from attributes row
@@ -219,7 +218,7 @@ def search_guyaneoccasions(page, make, model):
                 title_el = card.locator("h2, h3, .title, .vehicle-title").first
                 title = title_el.inner_text(timeout=1000).strip()
 
-                if not any(w.lower() in title.lower() for w in [make.lower(), model.lower()]):
+                if not (make.lower() in title.lower() and model.lower() in title.lower()):
                     continue
 
                 price_raw = ""
