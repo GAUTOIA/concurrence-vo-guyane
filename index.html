@@ -163,7 +163,7 @@ function getComps(v) {
   const modelLow = v.model.toLowerCase().replace(/[-\s]/g,'');
   return COMPS_RAW.filter(c => {
     const tl = (c.t||'').toLowerCase();
-    if(tl.includes('guyane automobile') || tl.includes('guyane occasion')) return false;
+    if(tl.includes('guyane automobile') || tl.includes('occasions by guyane')) return false;
     if((c.url||'').includes('guyane-automobile')) return false;
     const tlc = tl.replace(/[-\s]/g,'');
     return tlc.includes(modelLow) || modelLow.includes(tl.split(' ')[1]||'zzz');

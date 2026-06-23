@@ -115,10 +115,10 @@ def search_cyphoma(make, model):
             if not any(w.lower() in title.lower() for w in [make.lower(), model.lower()]):
                 continue
 
-            # Exclure nos propres annonces (Guyane Automobile / Guyane Occasion)
+            # Exclure nos propres annonces ("Les Occasions by Guyane Automobile")
             card_text = card.get_text(" ", strip=True).lower()
             href = link_el.get("href", "")
-            if "guyane automobile" in card_text or "guyane occasion" in card_text:
+            if "guyane automobile" in card_text or "occasions by guyane" in card_text:
                 continue
             if "guyane-automobile" in href.lower():
                 continue
