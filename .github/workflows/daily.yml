@@ -1,0 +1,54 @@
+name: Veille Prix VO – Actualisation quotidienne
+
+on:
+  schedule:
+    # Tous les jours à 6h00 heure de Paris (UTC+3 en été = 03:00 UTC)
+    - cron: "0 3 * * *"
+  workflow_dispatch: # Lancement manuel possible depuis GitHub
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  scrape-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Installer les dépendances Python
+        run: pip install -r requirements.txt
+
+      - name: Installer Playwright + Chromium
+        run: playwright install chromium --with-deps
+
+      - name: Lancer le scraper
+        run: python scraper.py
+        env:
+          PYTHONUNBUFFERED: "1"
+
+      - name: Vérifier que index.html a été généré
+        run: |
+          if [ ! -f index.html ]; then
+            echo "❌ index.html manquant"
+            exit 1
+          fi
+          echo "✅ index.html généré ($(wc -c < index.html) octets)"
+
+      - name: Committer les fichiers générés
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.html data.json
+          git diff --cached --quiet && echo "Pas de changement" || git commit -m "🔄 Veille prix VO – $(date '+%d/%m/%Y %H:%M')"
+          git push origin HEAD

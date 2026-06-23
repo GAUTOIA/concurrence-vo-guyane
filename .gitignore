@@ -1,0 +1,11 @@
+# Données générées localement (commitées par le workflow GitHub Actions)
+data.json
+stock.json
+
+# Dossier Claude Code local
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
