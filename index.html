@@ -89,9 +89,12 @@ img.th{width:60px;height:45px;object-fit:cover;border-radius:4px;display:block;b
     <option value="without">Sans concurrent</option>
     <option value="cheaper">Nous moins chers</option>
     <option value="pricier">Nous plus chers</option>
-    <option value="src-cyphoma">Source : Cyphoma</option>
-    <option value="src-leboncoin">Source : LeBonCoin</option>
-    <option value="src-guyaneoccasions">Source : GuyaneOccasions</option>
+  </select>
+  <select id="fsrc" onchange="goPage(1)">
+    <option value="">Toutes sources</option>
+    <option value="Cyphoma">Cyphoma</option>
+    <option value="LeBonCoin">LeBonCoin</option>
+    <option value="GuyaneOccasions">GuyaneOccasions</option>
   </select>
   <input type="number" id="pmin" placeholder="Prix min €" style="width:110px" oninput="goPage(1)">
   <input type="number" id="pmax" placeholder="Prix max €" style="width:110px" oninput="goPage(1)">
@@ -216,6 +219,7 @@ function getFiltered() {
   const mk=document.getElementById('fm').value;
   const fu=document.getElementById('ff').value.toLowerCase();
   const co=document.getElementById('fc').value;
+  const src=document.getElementById('fsrc').value;
   const pmin=parseFloat(document.getElementById('pmin').value)||0;
   const pmax=parseFloat(document.getElementById('pmax').value)||Infinity;
 
@@ -228,7 +232,7 @@ function getFiltered() {
     if(co==='without' && v.comps.length) return false;
     if(co==='cheaper'){const m=mc(v);if(!m||v.price>=m)return false;}
     if(co==='pricier'){const m=mc(v);if(!m||v.price<=m)return false;}
-    if(co.startsWith('src-')){const src=co.replace('src-','');if(!v.comps.some(c=>(c.src||'').toLowerCase().replace(/\s/g,'')===src))return false;}
+    if(src && !v.comps.some(c=>(c.src||'')===src)) return false;
     return true;
   }).sort((a,b)=>{
     let av,bv;

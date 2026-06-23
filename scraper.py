@@ -409,9 +409,12 @@ tr.comp-row td{padding:0 0 0 48px;border-bottom:1px solid var(--border);backgrou
     <option value="without">Sans concurrent trouvé</option>
     <option value="cheaper">Nous sommes moins chers</option>
     <option value="pricier">Nous sommes plus chers</option>
-    <option value="src-Cyphoma">Source : Cyphoma</option>
-    <option value="src-LeBonCoin">Source : LeBonCoin</option>
-    <option value="src-GuyaneOccasions">Source : GuyaneOccasions</option>
+  </select>
+  <select id="filter-src" onchange="filterTable()">
+    <option value="">Toutes sources</option>
+    <option value="Cyphoma">Cyphoma</option>
+    <option value="LeBonCoin">LeBonCoin</option>
+    <option value="GuyaneOccasions">GuyaneOccasions</option>
   </select>
 </div>
 
@@ -462,6 +465,7 @@ function filterTable(){
   const make=document.getElementById('filter-make').value.toLowerCase();
   const fuel=document.getElementById('filter-fuel').value.toLowerCase();
   const comp=document.getElementById('filter-comp').value;
+  const src=document.getElementById('filter-src').value;
 
   document.querySelectorAll('tr.vehicle-row').forEach(tr=>{
     const vid=tr.dataset.id;
@@ -482,8 +486,7 @@ function filterTable(){
       const minP=minPrice(v);
       if(minP===null||v.price===null||v.price>minP) show=false;
     }
-    if(comp.startsWith('src-')){
-      const src=comp.replace('src-','');
+    if(src){
       const comps=v.competitors||[];
       if(!comps.some(c=>(c.source||'')===src)) show=false;
     }
