@@ -115,12 +115,19 @@ def search_cyphoma(make, model):
             if not any(w.lower() in title.lower() for w in [make.lower(), model.lower()]):
                 continue
 
-            price_el = card.select_one(".price, .prix, span.ad-price, strong")
-            km_el = card.select_one(".km, .mileage, [class*='km']")
-
+            # Exclure nos propres annonces (Guyane Automobile / Guyane Occasion)
+            card_text = card.get_text(" ", strip=True).lower()
             href = link_el.get("href", "")
+            if "guyane automobile" in card_text or "guyane occasion" in card_text:
+                continue
+            if "guyane-automobile" in href.lower():
+                continue
+
             if not href.startswith("http"):
                 href = "https://www.cyphoma.com" + href
+
+            price_el = card.select_one(".price, .prix, span.ad-price, strong")
+            km_el = card.select_one(".km, .mileage, [class*='km']")
 
             results.append({
                 "source": "Cyphoma",
@@ -402,6 +409,9 @@ tr.comp-row td{padding:0 0 0 48px;border-bottom:1px solid var(--border);backgrou
     <option value="without">Sans concurrent trouvé</option>
     <option value="cheaper">Nous sommes moins chers</option>
     <option value="pricier">Nous sommes plus chers</option>
+    <option value="src-Cyphoma">Source : Cyphoma</option>
+    <option value="src-LeBonCoin">Source : LeBonCoin</option>
+    <option value="src-GuyaneOccasions">Source : GuyaneOccasions</option>
   </select>
 </div>
 
@@ -418,8 +428,8 @@ tr.comp-row td{padding:0 0 0 48px;border-bottom:1px solid var(--border);backgrou
   <tr>
     <th style="width:70px"></th>
     <th onclick="sortTable(1)">Véhicule <span class="sort-icon"></span></th>
-    <th onclick="sortTable(2)">Immat. <span class="sort-icon"></span></th>
-    <th onclick="sortTable(3)">Km <span class="sort-icon"></span></th>
+    <th onclick="sortTable(2)">Km <span class="sort-icon"></span></th>
+    <th onclick="sortTable(3)">1ère MEC <span class="sort-icon"></span></th>
     <th onclick="sortTable(4)">Notre prix <span class="sort-icon"></span></th>
     <th onclick="sortTable(5)">Concurrents <span class="sort-icon"></span></th>
     <th>Prix min concurrent</th>
@@ -471,6 +481,11 @@ function filterTable(){
     if(comp==='pricier'){
       const minP=minPrice(v);
       if(minP===null||v.price===null||v.price>minP) show=false;
+    }
+    if(comp.startsWith('src-')){
+      const src=comp.replace('src-','');
+      const comps=v.competitors||[];
+      if(!comps.some(c=>(c.source||'')===src)) show=false;
     }
 
     tr.style.display=show?'':'none';
@@ -591,21 +606,22 @@ def generate_html(data):
 
         diff_html = diff_badge(v["price"], comp_prices)
 
-        # Sort data attributes
-        sort3 = v["km"] or 0
+        # Sort data attributes: col2=km, col3=1ère MEC
+        sort2 = v["km"] or 0
+        sort3 = v["registrationDate"] or ""
         sort4 = v["price"] or 0
         sort5 = n_comps
 
         rows_html += f"""
-<tr class="vehicle-row" data-id="{vid}" data-sort1="{v['make']} {v['model']}" data-sort2="{v['registrationDate']}" data-sort3="{sort3}" data-sort4="{sort4}" data-sort5="{sort5}">
+<tr class="vehicle-row" data-id="{vid}" data-sort1="{v['make']} {v['model']}" data-sort2="{sort2}" data-sort3="{sort3}" data-sort4="{sort4}" data-sort5="{sort5}">
   <td>{photo_html}</td>
   <td>
     <div class="make-model">{v['make']} {v['model']}</div>
     <div class="version" title="{v['version']}">{v['version']}</div>
     <div class="tags">{fuel_tag}{body_tag}</div>
   </td>
-  <td style="white-space:nowrap">{v['registrationDate'] or '—'}</td>
   <td style="white-space:nowrap">{km_fmt}</td>
+  <td style="white-space:nowrap">{v['registrationDate'] or '—'}</td>
   <td><div class="our-price">{price_fmt}</div></td>
   <td>{comp_btn_html}</td>
   <td><span style="font-weight:600;color:#fff">{min_comp_fmt}</span></td>

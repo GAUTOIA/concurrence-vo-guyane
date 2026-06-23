@@ -89,6 +89,9 @@ img.th{width:60px;height:45px;object-fit:cover;border-radius:4px;display:block;b
     <option value="without">Sans concurrent</option>
     <option value="cheaper">Nous moins chers</option>
     <option value="pricier">Nous plus chers</option>
+    <option value="src-cyphoma">Source : Cyphoma</option>
+    <option value="src-leboncoin">Source : LeBonCoin</option>
+    <option value="src-guyaneoccasions">Source : GuyaneOccasions</option>
   </select>
   <input type="number" id="pmin" placeholder="Prix min €" style="width:110px" oninput="goPage(1)">
   <input type="number" id="pmax" placeholder="Prix max €" style="width:110px" oninput="goPage(1)">
@@ -104,8 +107,8 @@ img.th{width:60px;height:45px;object-fit:cover;border-radius:4px;display:block;b
 <thead><tr>
   <th class="no-sort" style="width:68px"></th>
   <th onclick="sb(1)">Véhicule</th>
-  <th onclick="sb(2)">Immat.</th>
-  <th onclick="sb(3)">Km</th>
+  <th onclick="sb(2)">Km</th>
+  <th onclick="sb(3)">1ère MEC</th>
   <th onclick="sb(4)">Notre prix</th>
   <th onclick="sb(5)">Concurrents</th>
   <th class="no-sort">Prix min conc.</th>
@@ -155,11 +158,15 @@ const COMPS_RAW = [
 ];
 
 // Match competitor listings to stock vehicles by model keywords
+// Exclude Guyane Automobile's own listings
 function getComps(v) {
   const modelLow = v.model.toLowerCase().replace(/[-\s]/g,'');
   return COMPS_RAW.filter(c => {
-    const tl = c.t.toLowerCase().replace(/[-\s]/g,'');
-    return tl.includes(modelLow) || modelLow.includes(tl.split(' ')[1]||'zzz');
+    const tl = (c.t||'').toLowerCase();
+    if(tl.includes('guyane automobile') || tl.includes('guyane occasion')) return false;
+    if((c.url||'').includes('guyane-automobile')) return false;
+    const tlc = tl.replace(/[-\s]/g,'');
+    return tlc.includes(modelLow) || modelLow.includes(tl.split(' ')[1]||'zzz');
   }).map(c => ({src:'Cyphoma', t:c.t, p:c.p, url:c.url}));
 }
 
@@ -167,7 +174,8 @@ function getComps(v) {
 STOCK.forEach(v => { v.comps = getComps(v); });
 
 const fp = p => p ? p.toLocaleString('fr-FR') + ' €' : '—';
-const fk = k => k ? k.toLocaleString('fr-FR') + ' km' : '—';
+const fk = k => (k && typeof k === 'number') ? k.toLocaleString('fr-FR') + ' km' : '—';
+const firstUrl = s => { if(!s) return ''; const m = s.match(/https?:\/\/[^\s"]+?\.jpe?g/i); return m ? m[0] : ''; };
 const mc = v => { const a=v.comps.map(c=>c.p).filter(p=>p>0); return a.length?Math.min(...a):null; };
 
 function fuelTag(f) {
@@ -220,12 +228,13 @@ function getFiltered() {
     if(co==='without' && v.comps.length) return false;
     if(co==='cheaper'){const m=mc(v);if(!m||v.price>=m)return false;}
     if(co==='pricier'){const m=mc(v);if(!m||v.price<=m)return false;}
+    if(co.startsWith('src-')){const src=co.replace('src-','');if(!v.comps.some(c=>(c.src||'').toLowerCase().replace(/\s/g,'')===src))return false;}
     return true;
   }).sort((a,b)=>{
     let av,bv;
     if(sortCol===1){av=`${a.make}${a.model}`;bv=`${b.make}${b.model}`;}
-    else if(sortCol===2){av=a.reg||'';bv=b.reg||'';}
-    else if(sortCol===3){av=a.km||0;bv=b.km||0;}
+    else if(sortCol===2){av=a.km||0;bv=b.km||0;}
+    else if(sortCol===3){av=a.reg||'';bv=b.reg||'';}
     else if(sortCol===4){av=a.price||0;bv=b.price||0;}
     else if(sortCol===5){av=a.comps.length;bv=b.comps.length;}
     else if(sortCol===7){av=diffVal(a.price,a.comps);bv=diffVal(b.price,b.comps);}
@@ -248,9 +257,8 @@ function renderPage() {
   tb.innerHTML = '';
   page.forEach(v => {
     const mp = mc(v), n = v.comps.length;
-    const ph = v.photo && !v.photo.includes('missing')
-      ? `<img class="th" src="${v.photo}" loading="lazy" alt="" onerror="this.style.display='none';this.nextSibling.style.display='flex'">`
-      : '';
+    const purl = firstUrl(v.photo);
+    const ph = purl ? `<img class="th" src="${purl}" loading="lazy" alt="" onerror="this.style.display='none';this.nextSibling.style.display='flex'">` : '';
     const btn = n
       ? `<button class="cbtn" id="b${v.id}" onclick="tc('${v.id}')"><span class="n">${n}</span>&nbsp;ann.&nbsp;▾</button>`
       : '<span class="noc">Aucun</span>';
@@ -258,14 +266,14 @@ function renderPage() {
     const tr = document.createElement('tr');
     tr.className = 'vrow';
     tr.innerHTML = `
-      <td><div style="position:relative">${ph}<div class="noimg" style="display:${v.photo&&!v.photo.includes('missing')?'none':'flex'}">🚗</div></div></td>
+      <td><div style="position:relative">${ph}<div class="noimg" style="display:${purl?'none':'flex'}">🚗</div></div></td>
       <td>
         <div class="mk">${v.make} ${v.model}</div>
         <div class="ver" title="${v.version}">${v.version||''}</div>
         <div class="tags">${fuelTag(v.fuel||'')}${v.body?`<span class="tag">${v.body}</span>`:''}</div>
       </td>
-      <td style="color:#64748b;white-space:nowrap">${v.reg||'—'}</td>
       <td class="kmv" style="white-space:nowrap">${fk(v.km)}</td>
+      <td style="color:#64748b;white-space:nowrap">${v.reg||'—'}</td>
       <td><div class="ourp">${fp(v.price)}</div></td>
       <td>${btn}</td>
       <td style="font-weight:700;color:#fff;white-space:nowrap">${mp?mp.toLocaleString('fr-FR')+' €':'—'}</td>
