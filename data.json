@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T15:56:21.265718",
+  "updated_at": "2026-06-26T12:08:00.973267",
   "vehicles": [
     {
       "id": "2429847",
@@ -15,36 +15,7 @@
       "km": 15893,
       "hp": 136,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/fhUos7kZ0WYk5HPj.jpeg",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "2429889",
@@ -60,15 +31,7 @@
       "km": 37000,
       "hp": 180,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/X4YShTQKRCnGH7Ya.jpeg",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "Jeep renégad en année 2021.",
-          "price": 12300,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/jeep-renegad-en-annee-2021-pus"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "2429892",
@@ -116,36 +79,7 @@
       "km": 69000,
       "hp": 109,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/m0zyWsEFICjbU2jS.jpeg",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "2464834",
@@ -162,27 +96,6 @@
       "hp": 67,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/KL6y7OijIqOnFXfF.jpeg",
       "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
         {
           "source": "Cyphoma",
           "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
@@ -206,36 +119,7 @@
       "km": 98000,
       "hp": 75,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/k1wCKZa22rcDUeAe.jpeg",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "2532383",
@@ -267,36 +151,7 @@
       "km": 57000,
       "hp": 77,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/Urr9agQdbdhfwsSD.jpeg",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "2632938",
@@ -347,31 +202,10 @@
       "competitors": [
         {
           "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
           "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
           "price": 14500,
           "km": null,
           "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
         }
       ]
     },
@@ -389,29 +223,7 @@
       "km": 20,
       "hp": 65,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/J5cAYl0zGKpGcgzB.jpeg",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "DACIA SANDERO STEPWAY CONFORT 1.0 TCe 90 ch – 2021",
-          "price": 12900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-sandero-stepway-confort-1-0-tce-90-ch-2021-apx"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "2960106",
@@ -459,36 +271,7 @@
       "km": 42400,
       "hp": 75,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/0pkdJamtTEdRUSp5.jpeg",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3031211",
@@ -504,15 +287,7 @@
       "km": 13600,
       "hp": 130,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/R7d9oDncjUah9xAA.jpeg",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "Jeep renégad en année 2021.",
-          "price": 12300,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/jeep-renegad-en-annee-2021-pus"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3064462",
@@ -535,20 +310,6 @@
           "price": 12900,
           "km": null,
           "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-sandero-stepway-confort-1-0-tce-90-ch-2021-apx"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
         }
       ]
     },
@@ -585,27 +346,6 @@
       "competitors": [
         {
           "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
           "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
           "price": 8000,
           "km": null,
@@ -627,15 +367,7 @@
       "km": 13300,
       "hp": 136,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/vbCk2qk4nsTsCPlZ.jpeg",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "KIA RIO IV 1.2 85 ch – 2020",
-          "price": 11900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/kia-rio-iv-1-2-85-ch-2020-xcn"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3086269",
@@ -652,27 +384,6 @@
       "hp": 67,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/SCHsKxesnb9YEogn.jpeg",
       "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
         {
           "source": "Cyphoma",
           "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
@@ -699,31 +410,10 @@
       "competitors": [
         {
           "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
           "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
           "price": 14500,
           "km": null,
           "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
         }
       ]
     },
@@ -741,36 +431,7 @@
       "km": 86500,
       "hp": 115,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/iLEBLym5Zq4lvtN0.jpeg",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3130372",
@@ -786,36 +447,7 @@
       "km": 9950,
       "hp": 109,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/fPGVY2iWKEv6LzqC.jpeg",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3155545",
@@ -832,27 +464,6 @@
       "hp": 67,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/h2aUjOXrMoXax377.jpeg",
       "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
         {
           "source": "Cyphoma",
           "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
@@ -876,15 +487,7 @@
       "km": 61000,
       "hp": 105,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/8kSE5RYHKoe30TCc.jpeg",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "KIA RIO IV 1.2 85 ch – 2020",
-          "price": 11900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/kia-rio-iv-1-2-85-ch-2020-xcn"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3189436",
@@ -903,31 +506,10 @@
       "competitors": [
         {
           "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
           "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
           "price": 14500,
           "km": null,
           "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
         }
       ]
     },
@@ -945,15 +527,7 @@
       "km": 67400,
       "hp": 102,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/9gAyrA8JLHV8Si5n.jpeg",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "Citroën c3 essence pure tech",
-          "price": 6800,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/citroen-c3-essence-pure-tech-eao"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3258370",
@@ -1004,31 +578,10 @@
       "competitors": [
         {
           "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
           "title": "RENAULT Captur 1.3 TCe 140ch 5p",
           "price": 17500,
           "km": null,
           "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
         }
       ]
     },
@@ -1046,36 +599,7 @@
       "km": 9600,
       "hp": 94,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/6UoP9YmOaQPf5e9v.jpeg",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3346412",
@@ -1110,10 +634,10 @@
       "competitors": [
         {
           "source": "Cyphoma",
-          "title": "KIA RIO IV 1.2 85 ch – 2020",
-          "price": 11900,
+          "title": "Kia Sportage 2023 Hybride Diesel – 13 500 km",
+          "price": 37500,
           "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/kia-rio-iv-1-2-85-ch-2020-xcn"
+          "url": "https://www.cyphoma.com/guyane/annonces/voitures/kia-sportage-2023-hybride-diesel-13-500-km-djk"
         }
       ]
     },
@@ -1131,29 +655,7 @@
       "km": 23,
       "hp": 45,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/NFuVpWeA75eUhPoD.jpeg",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "DACIA SANDERO STEPWAY CONFORT 1.0 TCe 90 ch – 2021",
-          "price": 12900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-sandero-stepway-confort-1-0-tce-90-ch-2021-apx"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3417385",
@@ -1217,29 +719,7 @@
       "km": 34980,
       "hp": 91,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/t0ukI37oAP1K16EF.jpeg",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "DACIA SANDERO STEPWAY CONFORT 1.0 TCe 90 ch – 2021",
-          "price": 12900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-sandero-stepway-confort-1-0-tce-90-ch-2021-apx"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3474611",
@@ -1255,39 +735,7 @@
       "km": 100498,
       "hp": 67,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/kdcBbiDFqhopxtmd.jpeg",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "KIA RIO IV 1.2 85 ch – 2020",
-          "price": 11900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/kia-rio-iv-1-2-85-ch-2020-xcn"
-        }
-      ]
-    },
-    {
-      "id": "3490588",
-      "externalId": "150538_re97c2",
-      "make": "KIA",
-      "model": "Picanto",
-      "version": "1.0 DPi 67ch Emotion",
-      "bodyType": "berline",
-      "fuelType": "essence",
-      "registrationDate": "10/2021",
-      "color": "Blanc",
-      "price": 14999.0,
-      "km": 77534,
-      "hp": 67,
-      "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/oI8smPBm44zN2NEJ.jpeg",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "KIA RIO IV 1.2 85 ch – 2020",
-          "price": 11900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/kia-rio-iv-1-2-85-ch-2020-xcn"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3490595",
@@ -1304,27 +752,6 @@
       "hp": 90,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/VM8ifiyETtH3TTIi.jpeg",
       "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
         {
           "source": "Cyphoma",
           "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
@@ -1349,27 +776,6 @@
       "hp": 91,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/BQUqtPEEHsYRPZCN.jpeg",
       "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
         {
           "source": "Cyphoma",
           "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
@@ -1409,36 +815,7 @@
       "km": 73030,
       "hp": 91,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/VxVcTR8VfBMI0dHD.jpeg",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3601095",
@@ -1473,31 +850,10 @@
       "competitors": [
         {
           "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
           "title": "RENAULT Captur 1.3 TCe 140ch 5p",
           "price": 17500,
           "km": null,
           "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
         }
       ]
     },
@@ -1515,15 +871,7 @@
       "km": 39720,
       "hp": 136,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/GWXur3mNBqfUCg8v.jpeg",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "KIA RIO IV 1.2 85 ch – 2020",
-          "price": 11900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/kia-rio-iv-1-2-85-ch-2020-xcn"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3643277",
@@ -1539,15 +887,7 @@
       "km": 14043,
       "hp": 100,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/b9KkqRoRFDhgckxV.jpeg",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "KIA RIO IV 1.2 85 ch – 2020",
-          "price": 11900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/kia-rio-iv-1-2-85-ch-2020-xcn"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3656586",
@@ -1570,20 +910,6 @@
           "price": 12900,
           "km": null,
           "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-sandero-stepway-confort-1-0-tce-90-ch-2021-apx"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
         }
       ]
     },
@@ -1601,15 +927,7 @@
       "km": 67169,
       "hp": 72,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/jmO704ECDkcTvN4s.jpeg",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "PEUGEOT 5008 CROSSWAY 7 PLACES",
-          "price": 23900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/peugeot-5008-crossway-7-places-ics"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3680313",
@@ -1625,29 +943,7 @@
       "km": 97527,
       "hp": 95,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/PHBwIFb7rDm0CXj9.jpeg",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "DACIA SANDERO STEPWAY CONFORT 1.0 TCe 90 ch – 2021",
-          "price": 12900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-sandero-stepway-confort-1-0-tce-90-ch-2021-apx"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3680316",
@@ -1666,10 +962,10 @@
       "competitors": [
         {
           "source": "Cyphoma",
-          "title": "KIA RIO IV 1.2 85 ch – 2020",
-          "price": 11900,
+          "title": "Kia Sportage 2023 Hybride Diesel – 13 500 km",
+          "price": 37500,
           "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/kia-rio-iv-1-2-85-ch-2020-xcn"
+          "url": "https://www.cyphoma.com/guyane/annonces/voitures/kia-sportage-2023-hybride-diesel-13-500-km-djk"
         }
       ]
     },
@@ -1687,15 +983,7 @@
       "km": 71448,
       "hp": 150,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/aAX9vX7nzsQ3kor0.jpeg",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "Jeep renégad en année 2021.",
-          "price": 12300,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/jeep-renegad-en-annee-2021-pus"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860122",
@@ -1727,29 +1015,7 @@
       "km": 93082,
       "hp": 95,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "DACIA SANDERO STEPWAY CONFORT 1.0 TCe 90 ch – 2021",
-          "price": 12900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-sandero-stepway-confort-1-0-tce-90-ch-2021-apx"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860124",
@@ -1772,20 +1038,6 @@
           "price": 12900,
           "km": null,
           "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-sandero-stepway-confort-1-0-tce-90-ch-2021-apx"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
         }
       ]
     },
@@ -1803,29 +1055,7 @@
       "km": 123500,
       "hp": 91,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "DACIA SANDERO STEPWAY CONFORT 1.0 TCe 90 ch – 2021",
-          "price": 12900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-sandero-stepway-confort-1-0-tce-90-ch-2021-apx"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860126",
@@ -1841,29 +1071,7 @@
       "km": 96751,
       "hp": 95,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "DACIA SANDERO STEPWAY CONFORT 1.0 TCe 90 ch – 2021",
-          "price": 12900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-sandero-stepway-confort-1-0-tce-90-ch-2021-apx"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860127",
@@ -1896,27 +1104,6 @@
       "hp": 75,
       "photo": "",
       "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
         {
           "source": "Cyphoma",
           "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
@@ -1956,15 +1143,7 @@
       "km": 64676,
       "hp": 102,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "Citroën c3 essence pure tech",
-          "price": 6800,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/citroen-c3-essence-pure-tech-eao"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860131",
@@ -1980,36 +1159,7 @@
       "km": 27025,
       "hp": 94,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860132",
@@ -2026,27 +1176,6 @@
       "hp": 67,
       "photo": "",
       "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
         {
           "source": "Cyphoma",
           "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
@@ -2150,36 +1279,7 @@
       "km": 58766,
       "hp": 110,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860140",
@@ -2227,36 +1327,7 @@
       "km": 112029,
       "hp": 94,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860145",
@@ -2273,27 +1344,6 @@
       "hp": 90,
       "photo": "",
       "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
         {
           "source": "Cyphoma",
           "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
@@ -2324,20 +1374,6 @@
           "price": 12900,
           "km": null,
           "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-sandero-stepway-confort-1-0-tce-90-ch-2021-apx"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
         }
       ]
     },
@@ -2350,7 +1386,7 @@
       "bodyType": "fourgon",
       "fuelType": "diesel",
       "registrationDate": "09/2021",
-      "color": "Gris",
+      "color": "Blanc",
       "price": 25900.0,
       "km": 81677,
       "hp": 114,
@@ -2371,74 +1407,7 @@
       "km": 85910,
       "hp": 130,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "DACIA SANDERO STEPWAY CONFORT 1.0 TCe 90 ch – 2021",
-          "price": 12900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-sandero-stepway-confort-1-0-tce-90-ch-2021-apx"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        }
-      ]
-    },
-    {
-      "id": "3860152",
-      "externalId": "168_re97c2",
-      "make": "Renault",
-      "model": "Clio",
-      "version": "1.0 SCe 65ch Evolution",
-      "bodyType": "berline",
-      "fuelType": "essence",
-      "registrationDate": "06/2022",
-      "color": "Noir",
-      "price": 12999.0,
-      "km": 128675,
-      "hp": 67,
-      "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860156",
@@ -2454,29 +1423,7 @@
       "km": 78501,
       "hp": 115,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "DACIA SANDERO STEPWAY CONFORT 1.0 TCe 90 ch – 2021",
-          "price": 12900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-sandero-stepway-confort-1-0-tce-90-ch-2021-apx"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860153",
@@ -2492,15 +1439,7 @@
       "km": 97701,
       "hp": 67,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "KIA RIO IV 1.2 85 ch – 2020",
-          "price": 11900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/kia-rio-iv-1-2-85-ch-2020-xcn"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860157",
@@ -2516,15 +1455,7 @@
       "km": 68648,
       "hp": 67,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "KIA RIO IV 1.2 85 ch – 2020",
-          "price": 11900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/kia-rio-iv-1-2-85-ch-2020-xcn"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860159",
@@ -2540,29 +1471,7 @@
       "km": 59006,
       "hp": 116,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "DACIA SANDERO STEPWAY CONFORT 1.0 TCe 90 ch – 2021",
-          "price": 12900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-sandero-stepway-confort-1-0-tce-90-ch-2021-apx"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860158",
@@ -2579,20 +1488,6 @@
       "hp": 110,
       "photo": "",
       "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "DACIA SANDERO STEPWAY CONFORT 1.0 TCe 90 ch – 2021",
-          "price": 12900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-sandero-stepway-confort-1-0-tce-90-ch-2021-apx"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        },
         {
           "source": "Cyphoma",
           "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
@@ -2616,36 +1511,7 @@
       "km": 58883,
       "hp": 140,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860161",
@@ -2696,31 +1562,10 @@
       "competitors": [
         {
           "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
           "title": "RENAULT Captur 1.3 TCe 140ch 5p",
           "price": 17500,
           "km": null,
           "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
         }
       ]
     },
@@ -2741,10 +1586,10 @@
       "competitors": [
         {
           "source": "Cyphoma",
-          "title": "KIA RIO IV 1.2 85 ch – 2020",
-          "price": 11900,
+          "title": "Kia Sportage 2023 Hybride Diesel – 13 500 km",
+          "price": 37500,
           "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/kia-rio-iv-1-2-85-ch-2020-xcn"
+          "url": "https://www.cyphoma.com/guyane/annonces/voitures/kia-sportage-2023-hybride-diesel-13-500-km-djk"
         }
       ]
     },
@@ -2781,10 +1626,10 @@
       "competitors": [
         {
           "source": "Cyphoma",
-          "title": "KIA RIO IV 1.2 85 ch – 2020",
-          "price": 11900,
+          "title": "Kia Sportage 2023 Hybride Diesel – 13 500 km",
+          "price": 37500,
           "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/kia-rio-iv-1-2-85-ch-2020-xcn"
+          "url": "https://www.cyphoma.com/guyane/annonces/voitures/kia-sportage-2023-hybride-diesel-13-500-km-djk"
         }
       ]
     },
@@ -2802,15 +1647,7 @@
       "km": 23900,
       "hp": 100,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "KIA RIO IV 1.2 85 ch – 2020",
-          "price": 11900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/kia-rio-iv-1-2-85-ch-2020-xcn"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860170",
@@ -2827,27 +1664,6 @@
       "hp": 90,
       "photo": "",
       "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
         {
           "source": "Cyphoma",
           "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
@@ -2871,36 +1687,7 @@
       "km": 51653,
       "hp": 91,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860175",
@@ -2917,27 +1704,6 @@
       "hp": 90,
       "photo": "",
       "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
         {
           "source": "Cyphoma",
           "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
@@ -2961,36 +1727,7 @@
       "km": 84157,
       "hp": 135,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860174",
@@ -3006,36 +1743,7 @@
       "km": 84157,
       "hp": 120,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860176",
@@ -3051,15 +1759,7 @@
       "km": 33815,
       "hp": 120,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "Jeep renégad en année 2021.",
-          "price": 12300,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/jeep-renegad-en-annee-2021-pus"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860178",
@@ -3075,36 +1775,7 @@
       "km": 75560,
       "hp": 140,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860179",
@@ -3120,36 +1791,7 @@
       "km": 47126,
       "hp": 80,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860180",
@@ -3184,31 +1826,10 @@
       "competitors": [
         {
           "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
           "title": "RENAULT Captur 1.3 TCe 140ch 5p",
           "price": 17500,
           "km": null,
           "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
         }
       ]
     },
@@ -3226,36 +1847,7 @@
       "km": 61826,
       "hp": 115,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860183",
@@ -3271,36 +1863,7 @@
       "km": 19560,
       "hp": 60,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860187",
@@ -3311,33 +1874,12 @@
       "bodyType": "berline",
       "fuelType": "diesel",
       "registrationDate": "02/2019",
-      "color": "Blanc",
+      "color": "Gris",
       "price": 14900.0,
       "km": 42300,
       "hp": 75,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/Rd4YBMmeF9rmSuvi.jpeg",
       "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
         {
           "source": "Cyphoma",
           "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
@@ -3368,20 +1910,6 @@
           "price": 12900,
           "km": null,
           "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-sandero-stepway-confort-1-0-tce-90-ch-2021-apx"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
         }
       ]
     },
@@ -3400,20 +1928,6 @@
       "hp": 110,
       "photo": "",
       "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "DACIA SANDERO STEPWAY CONFORT 1.0 TCe 90 ch – 2021",
-          "price": 12900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-sandero-stepway-confort-1-0-tce-90-ch-2021-apx"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        },
         {
           "source": "Cyphoma",
           "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
@@ -3437,29 +1951,7 @@
       "km": 98500,
       "hp": 130,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "DACIA SANDERO STEPWAY CONFORT 1.0 TCe 90 ch – 2021",
-          "price": 12900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-sandero-stepway-confort-1-0-tce-90-ch-2021-apx"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860191",
@@ -3476,27 +1968,6 @@
       "hp": 72,
       "photo": "",
       "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
         {
           "source": "Cyphoma",
           "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
@@ -3523,31 +1994,10 @@
       "competitors": [
         {
           "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
           "title": "RENAULT Captur 1.3 TCe 140ch 5p",
           "price": 17500,
           "km": null,
           "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
         }
       ]
     },
@@ -3565,36 +2015,7 @@
       "km": 105811,
       "hp": 146,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860196",
@@ -3613,10 +2034,10 @@
       "competitors": [
         {
           "source": "Cyphoma",
-          "title": "KIA RIO IV 1.2 85 ch – 2020",
-          "price": 11900,
+          "title": "Kia Sportage 2023 Hybride Diesel – 13 500 km",
+          "price": 37500,
           "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/kia-rio-iv-1-2-85-ch-2020-xcn"
+          "url": "https://www.cyphoma.com/guyane/annonces/voitures/kia-sportage-2023-hybride-diesel-13-500-km-djk"
         }
       ]
     },
@@ -3634,36 +2055,7 @@
       "km": 83238,
       "hp": 75,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860199",
@@ -3679,36 +2071,7 @@
       "km": 85000,
       "hp": 80,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860200",
@@ -3724,36 +2087,7 @@
       "km": 82500,
       "hp": 80,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860202",
@@ -3769,36 +2103,7 @@
       "km": 101000,
       "hp": 80,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860204",
@@ -3821,20 +2126,6 @@
           "price": 12900,
           "km": null,
           "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-sandero-stepway-confort-1-0-tce-90-ch-2021-apx"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
         }
       ]
     },
@@ -3852,15 +2143,7 @@
       "km": 94000,
       "hp": 100,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "KIA RIO IV 1.2 85 ch – 2020",
-          "price": 11900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/kia-rio-iv-1-2-85-ch-2020-xcn"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860207",
@@ -3876,74 +2159,7 @@
       "km": 23000,
       "hp": 116,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "DACIA SANDERO STEPWAY CONFORT 1.0 TCe 90 ch – 2021",
-          "price": 12900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-sandero-stepway-confort-1-0-tce-90-ch-2021-apx"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        }
-      ]
-    },
-    {
-      "id": "3860208",
-      "externalId": "150609_re97c2",
-      "make": "Renault",
-      "model": "Clio",
-      "version": "1.0 SCe 65ch Intuition",
-      "bodyType": "berline",
-      "fuelType": "essence",
-      "registrationDate": "07/2021",
-      "color": "Bleu",
-      "price": 13900.0,
-      "km": 79843,
-      "hp": 67,
-      "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860209",
@@ -3959,36 +2175,23 @@
       "km": 68759,
       "hp": 140,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
+    },
+    {
+      "id": "3860210",
+      "externalId": "150612_re97c2",
+      "make": "KIA",
+      "model": "Picanto",
+      "version": "1.0 DPi 67ch Emotion",
+      "bodyType": "berline",
+      "fuelType": "essence",
+      "registrationDate": "10/2021",
+      "color": "Blanc",
+      "price": 11999.0,
+      "km": 74241,
+      "hp": 67,
+      "photo": "",
+      "competitors": []
     },
     {
       "id": "3860212",
@@ -4004,36 +2207,7 @@
       "km": 36100,
       "hp": 146,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860213",
@@ -4049,36 +2223,7 @@
       "km": 96527,
       "hp": 75,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/GhmKDo66dhY2ba0v.jpeg",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860214",
@@ -4089,20 +2234,12 @@
       "bodyType": "fourgonnette",
       "fuelType": "diesel",
       "registrationDate": "10/2019",
-      "color": "",
+      "color": "Noir",
       "price": 15900.0,
       "km": 51900,
       "hp": 99,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "Citroën c3 essence pure tech",
-          "price": 6800,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/citroen-c3-essence-pure-tech-eao"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860215",
@@ -4166,36 +2303,7 @@
       "km": 74281,
       "hp": 140,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860219",
@@ -4214,10 +2322,10 @@
       "competitors": [
         {
           "source": "Cyphoma",
-          "title": "KIA RIO IV 1.2 85 ch – 2020",
-          "price": 11900,
+          "title": "Kia Sportage 2023 Hybride Diesel – 13 500 km",
+          "price": 37500,
           "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/kia-rio-iv-1-2-85-ch-2020-xcn"
+          "url": "https://www.cyphoma.com/guyane/annonces/voitures/kia-sportage-2023-hybride-diesel-13-500-km-djk"
         }
       ]
     },
@@ -4235,36 +2343,7 @@
       "km": 95451,
       "hp": 150,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860222",
@@ -4280,29 +2359,7 @@
       "km": 31000,
       "hp": 95,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "DACIA SANDERO STEPWAY CONFORT 1.0 TCe 90 ch – 2021",
-          "price": 12900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-sandero-stepway-confort-1-0-tce-90-ch-2021-apx"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860225",
@@ -4321,31 +2378,10 @@
       "competitors": [
         {
           "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
           "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
           "price": 14500,
           "km": null,
           "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
         }
       ]
     },
@@ -4363,36 +2399,7 @@
       "km": 23133,
       "hp": 135,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860227",
@@ -4411,31 +2418,10 @@
       "competitors": [
         {
           "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
           "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
           "price": 14500,
           "km": null,
           "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
         }
       ]
     },
@@ -4453,36 +2439,7 @@
       "km": 28776,
       "hp": 75,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860230",
@@ -4498,15 +2455,7 @@
       "km": 75520,
       "hp": 200,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "KIA RIO IV 1.2 85 ch – 2020",
-          "price": 11900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/kia-rio-iv-1-2-85-ch-2020-xcn"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860229",
@@ -4522,36 +2471,7 @@
       "km": 83000,
       "hp": 146,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860231",
@@ -4567,15 +2487,7 @@
       "km": 74647,
       "hp": 105,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "KIA RIO IV 1.2 85 ch – 2020",
-          "price": 11900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/kia-rio-iv-1-2-85-ch-2020-xcn"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860233",
@@ -4623,15 +2535,7 @@
       "km": 11329,
       "hp": 136,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "KIA RIO IV 1.2 85 ch – 2020",
-          "price": 11900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/kia-rio-iv-1-2-85-ch-2020-xcn"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860239",
@@ -4648,27 +2552,6 @@
       "hp": 67,
       "photo": "",
       "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
         {
           "source": "Cyphoma",
           "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
@@ -4695,27 +2578,6 @@
       "competitors": [
         {
           "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
           "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
           "price": 8000,
           "km": null,
@@ -4740,20 +2602,6 @@
       "competitors": [
         {
           "source": "Cyphoma",
-          "title": "DACIA SANDERO STEPWAY CONFORT 1.0 TCe 90 ch – 2021",
-          "price": 12900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-sandero-stepway-confort-1-0-tce-90-ch-2021-apx"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        },
-        {
-          "source": "Cyphoma",
           "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
           "price": 13900,
           "km": null,
@@ -4775,36 +2623,7 @@
       "km": 111734,
       "hp": 160,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860245",
@@ -4821,27 +2640,6 @@
       "hp": 85,
       "photo": "",
       "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
         {
           "source": "Cyphoma",
           "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
@@ -4865,36 +2663,7 @@
       "km": 108049,
       "hp": 115,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860249",
@@ -4911,27 +2680,6 @@
       "hp": 76,
       "photo": "",
       "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
         {
           "source": "Cyphoma",
           "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
@@ -4955,36 +2703,7 @@
       "km": 43500,
       "hp": 115,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860252",
@@ -5016,29 +2735,7 @@
       "km": 56971,
       "hp": 115,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "DACIA SANDERO STEPWAY CONFORT 1.0 TCe 90 ch – 2021",
-          "price": 12900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-sandero-stepway-confort-1-0-tce-90-ch-2021-apx"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860256",
@@ -5054,29 +2751,7 @@
       "km": 48855,
       "hp": 116,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "DACIA SANDERO STEPWAY CONFORT 1.0 TCe 90 ch – 2021",
-          "price": 12900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-sandero-stepway-confort-1-0-tce-90-ch-2021-apx"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860265",
@@ -5116,15 +2791,7 @@
       "km": 87767,
       "hp": 67,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "KIA RIO IV 1.2 85 ch – 2020",
-          "price": 11900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/kia-rio-iv-1-2-85-ch-2020-xcn"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860258",
@@ -5141,72 +2808,6 @@
       "hp": 90,
       "photo": "",
       "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
-    },
-    {
-      "id": "3860259",
-      "externalId": "241_re97c2",
-      "make": "Renault",
-      "model": "Clio",
-      "version": "1.0 SCe 65ch Evolution",
-      "bodyType": "berline",
-      "fuelType": "essence",
-      "registrationDate": "04/2022",
-      "color": "Blanc",
-      "price": 13999.0,
-      "km": 74112,
-      "hp": 67,
-      "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
         {
           "source": "Cyphoma",
           "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
@@ -5294,36 +2895,7 @@
       "km": 65819,
       "hp": 140,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860273",
@@ -5339,15 +2911,7 @@
       "km": 87232,
       "hp": 67,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "KIA RIO IV 1.2 85 ch – 2020",
-          "price": 11900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/kia-rio-iv-1-2-85-ch-2020-xcn"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860274",
@@ -5363,29 +2927,7 @@
       "km": 63000,
       "hp": 116,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "DACIA SANDERO STEPWAY CONFORT 1.0 TCe 90 ch – 2021",
-          "price": 12900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-sandero-stepway-confort-1-0-tce-90-ch-2021-apx"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860275",
@@ -5436,31 +2978,10 @@
       "competitors": [
         {
           "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
           "title": "RENAULT Captur 1.3 TCe 140ch 5p",
           "price": 17500,
           "km": null,
           "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
         }
       ]
     },
@@ -5478,15 +2999,7 @@
       "km": 84165,
       "hp": 76,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "Citroën c3 essence pure tech",
-          "price": 6800,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/citroen-c3-essence-pure-tech-eao"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860281",
@@ -5509,20 +3022,6 @@
           "price": 12900,
           "km": null,
           "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-sandero-stepway-confort-1-0-tce-90-ch-2021-apx"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
         }
       ]
     },
@@ -5540,36 +3039,7 @@
       "km": 65875,
       "hp": 115,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860283",
@@ -5585,36 +3055,7 @@
       "km": 63810,
       "hp": 140,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860284",
@@ -5630,29 +3071,7 @@
       "km": 71200,
       "hp": 115,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "DACIA SANDERO STEPWAY CONFORT 1.0 TCe 90 ch – 2021",
-          "price": 12900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-sandero-stepway-confort-1-0-tce-90-ch-2021-apx"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860285",
@@ -5732,36 +3151,7 @@
       "km": 71353,
       "hp": 85,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860295",
@@ -5777,36 +3167,7 @@
       "km": 79838,
       "hp": 135,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860297",
@@ -5829,20 +3190,6 @@
           "price": 12900,
           "km": null,
           "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-sandero-stepway-confort-1-0-tce-90-ch-2021-apx"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
         }
       ]
     },
@@ -5861,27 +3208,6 @@
       "hp": 100,
       "photo": "",
       "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
         {
           "source": "Cyphoma",
           "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
@@ -5921,36 +3247,7 @@
       "km": 8800,
       "hp": 140,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860304",
@@ -5982,36 +3279,7 @@
       "km": 67240,
       "hp": 135,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860307",
@@ -6030,31 +3298,10 @@
       "competitors": [
         {
           "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
           "title": "RENAULT Captur 1.3 TCe 140ch 5p",
           "price": 17500,
           "km": null,
           "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
         }
       ]
     },
@@ -6072,29 +3319,7 @@
       "km": 76650,
       "hp": 91,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "DACIA SANDERO STEPWAY CONFORT 1.0 TCe 90 ch – 2021",
-          "price": 12900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-sandero-stepway-confort-1-0-tce-90-ch-2021-apx"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860309",
@@ -6110,74 +3335,7 @@
       "km": 23802,
       "hp": 131,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
-    },
-    {
-      "id": "3860311",
-      "externalId": "12_re97c2",
-      "make": "Dacia",
-      "model": "Duster",
-      "version": "1.3 TCe 150ch FAP Extreme 4x2 EDC",
-      "bodyType": "SUV VP",
-      "fuelType": "essence",
-      "registrationDate": "01/2024",
-      "color": "Gris",
-      "price": 25999.0,
-      "km": 36336,
-      "hp": 150,
-      "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/KfH6QhjxQTLbllDu.jpeg",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "DACIA SANDERO STEPWAY CONFORT 1.0 TCe 90 ch – 2021",
-          "price": 12900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-sandero-stepway-confort-1-0-tce-90-ch-2021-apx"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860312",
@@ -6196,31 +3354,10 @@
       "competitors": [
         {
           "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
           "title": "RENAULT Captur 1.3 TCe 140ch 5p",
           "price": 17500,
           "km": null,
           "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
         }
       ]
     },
@@ -6238,36 +3375,7 @@
       "km": 32115,
       "hp": 92,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860314",
@@ -6299,36 +3407,7 @@
       "km": 71500,
       "hp": 146,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860317",
@@ -6376,36 +3455,7 @@
       "km": 14084,
       "hp": 80,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860322",
@@ -6421,36 +3471,7 @@
       "km": 27000,
       "hp": 92,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860324",
@@ -6466,36 +3487,7 @@
       "km": 78172,
       "hp": 80,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860327",
@@ -6511,29 +3503,7 @@
       "km": 58041,
       "hp": 115,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "DACIA SANDERO STEPWAY CONFORT 1.0 TCe 90 ch – 2021",
-          "price": 12900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-sandero-stepway-confort-1-0-tce-90-ch-2021-apx"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860326",
@@ -6552,31 +3522,10 @@
       "competitors": [
         {
           "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
           "title": "RENAULT Captur 1.3 TCe 140ch 5p",
           "price": 17500,
           "km": null,
           "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
         }
       ]
     },
@@ -6594,36 +3543,7 @@
       "km": 56713,
       "hp": 114,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860329",
@@ -6642,30 +3562,6 @@
       "competitors": []
     },
     {
-      "id": "3860330",
-      "externalId": "150066_re97c2",
-      "make": "KIA",
-      "model": "Niro",
-      "version": "MY22 EVASION 1 6L GDI 141CH DCT6",
-      "bodyType": "break",
-      "fuelType": "hybride",
-      "registrationDate": "06/2022",
-      "color": "",
-      "price": 23999.0,
-      "km": 9652,
-      "hp": 105,
-      "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/J29pQmeXsvNnR2ZA.jpeg",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "KIA RIO IV 1.2 85 ch – 2020",
-          "price": 11900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/kia-rio-iv-1-2-85-ch-2020-xcn"
-        }
-      ]
-    },
-    {
       "id": "3860331",
       "externalId": "145193_re97c2",
       "make": "Renault",
@@ -6679,36 +3575,7 @@
       "km": 16000,
       "hp": 131,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/xeONEZty8CKMtAr7.jpeg",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860332",
@@ -6724,36 +3591,7 @@
       "km": 53863,
       "hp": 135,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860333",
@@ -6769,36 +3607,7 @@
       "km": 90397,
       "hp": 135,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860334",
@@ -6817,31 +3626,10 @@
       "competitors": [
         {
           "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
           "title": "RENAULT Captur 1.3 TCe 140ch 5p",
           "price": 17500,
           "km": null,
           "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
         }
       ]
     },
@@ -6860,27 +3648,6 @@
       "hp": 85,
       "photo": "",
       "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
         {
           "source": "Cyphoma",
           "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
@@ -6920,29 +3687,7 @@
       "km": 56422,
       "hp": 130,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "DACIA SANDERO STEPWAY CONFORT 1.0 TCe 90 ch – 2021",
-          "price": 12900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-sandero-stepway-confort-1-0-tce-90-ch-2021-apx"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860339",
@@ -6974,15 +3719,7 @@
       "km": 15000,
       "hp": 136,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "KIA RIO IV 1.2 85 ch – 2020",
-          "price": 11900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/kia-rio-iv-1-2-85-ch-2020-xcn"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860341",
@@ -6998,15 +3735,7 @@
       "km": 101,
       "hp": 136,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "KIA RIO IV 1.2 85 ch – 2020",
-          "price": 11900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/kia-rio-iv-1-2-85-ch-2020-xcn"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860342",
@@ -7022,36 +3751,7 @@
       "km": 35549,
       "hp": 135,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860343",
@@ -7067,36 +3767,7 @@
       "km": 87000,
       "hp": 80,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860344",
@@ -7112,36 +3783,7 @@
       "km": 76000,
       "hp": 140,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860347",
@@ -7158,27 +3800,6 @@
       "hp": 91,
       "photo": "",
       "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
         {
           "source": "Cyphoma",
           "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
@@ -7205,27 +3826,6 @@
       "competitors": [
         {
           "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
           "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
           "price": 8000,
           "km": null,
@@ -7247,36 +3847,7 @@
       "km": 77752,
       "hp": 110,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860351",
@@ -7293,51 +3864,6 @@
       "hp": 204,
       "photo": "",
       "competitors": []
-    },
-    {
-      "id": "3875090",
-      "externalId": "160_re97c2",
-      "make": "Renault",
-      "model": "Clio",
-      "version": "1.0 TCe 90ch Intens -21",
-      "bodyType": "berline",
-      "fuelType": "essence",
-      "registrationDate": "07/2021",
-      "color": "Blanc",
-      "price": 11999.0,
-      "km": 91472,
-      "hp": 91,
-      "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
     },
     {
       "id": "3875109",
@@ -7385,36 +3911,7 @@
       "km": 88206,
       "hp": 120,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3917202",
@@ -7430,29 +3927,7 @@
       "km": 49000,
       "hp": 116,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "DACIA SANDERO STEPWAY CONFORT 1.0 TCe 90 ch – 2021",
-          "price": 12900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-sandero-stepway-confort-1-0-tce-90-ch-2021-apx"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3917203",
@@ -7468,29 +3943,7 @@
       "km": 38700,
       "hp": 130,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "DACIA SANDERO STEPWAY CONFORT 1.0 TCe 90 ch – 2021",
-          "price": 12900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-sandero-stepway-confort-1-0-tce-90-ch-2021-apx"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3917206",
@@ -7506,15 +3959,7 @@
       "km": 24000,
       "hp": 140,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "KIA RIO IV 1.2 85 ch – 2020",
-          "price": 11900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/kia-rio-iv-1-2-85-ch-2020-xcn"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3917211",
@@ -7530,36 +3975,7 @@
       "km": 97866,
       "hp": 140,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3917212",
@@ -7578,96 +3994,6 @@
       "competitors": []
     },
     {
-      "id": "3917213",
-      "externalId": "264_re97c2",
-      "make": "Renault",
-      "model": "Clio",
-      "version": "1.0 TCe 90ch Evolution X-Tronic",
-      "bodyType": "berline",
-      "fuelType": "essence",
-      "registrationDate": "06/2022",
-      "color": "Bleu",
-      "price": 13999.0,
-      "km": 94958,
-      "hp": 91,
-      "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
-    },
-    {
-      "id": "3917215",
-      "externalId": "150216_re97c2",
-      "make": "Renault",
-      "model": "Kangoo Express",
-      "version": "1.5 Blue dCi 80ch Générique 5cv",
-      "bodyType": "fourgonnette",
-      "fuelType": "diesel",
-      "registrationDate": "03/2021",
-      "color": "Blanc",
-      "price": 12999.0,
-      "km": 97533,
-      "hp": 80,
-      "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
-    },
-    {
       "id": "3917216",
       "externalId": "192_re97c2",
       "make": "KIA",
@@ -7684,10 +4010,10 @@
       "competitors": [
         {
           "source": "Cyphoma",
-          "title": "KIA RIO IV 1.2 85 ch – 2020",
-          "price": 11900,
+          "title": "Kia Sportage 2023 Hybride Diesel – 13 500 km",
+          "price": 37500,
           "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/kia-rio-iv-1-2-85-ch-2020-xcn"
+          "url": "https://www.cyphoma.com/guyane/annonces/voitures/kia-sportage-2023-hybride-diesel-13-500-km-djk"
         }
       ]
     },
@@ -7712,20 +4038,6 @@
           "price": 12900,
           "km": null,
           "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-sandero-stepway-confort-1-0-tce-90-ch-2021-apx"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
         }
       ]
     },
@@ -7744,99 +4056,6 @@
       "hp": 92,
       "photo": "",
       "competitors": []
-    },
-    {
-      "id": "3959178",
-      "externalId": "118_re97c2",
-      "make": "Peugeot",
-      "model": "Expert",
-      "version": "1.5 BlueHDi 120ch S&S Standard 9 Places",
-      "bodyType": "combi",
-      "fuelType": "diesel",
-      "registrationDate": "01/2021",
-      "color": "Blanc",
-      "price": 24999.0,
-      "km": 49073,
-      "hp": 120,
-      "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "PEUGEOT 5008 CROSSWAY 7 PLACES",
-          "price": 23900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/peugeot-5008-crossway-7-places-ics"
-        }
-      ]
-    },
-    {
-      "id": "3959196",
-      "externalId": "53_re97c2",
-      "make": "Renault",
-      "model": "Trafic",
-      "version": "Fg L1H1 1200 2.0 dCi 120ch Grand Confort E6",
-      "bodyType": "fourgon",
-      "fuelType": "diesel",
-      "registrationDate": "04/2021",
-      "color": "Blanc",
-      "price": 19999.0,
-      "km": 89970,
-      "hp": 120,
-      "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
-    },
-    {
-      "id": "3974304",
-      "externalId": "273_re97c2",
-      "make": "KIA",
-      "model": "Niro",
-      "version": "1.6 GDi 141ch HEV Motion DCT6",
-      "bodyType": "break",
-      "fuelType": "hybride",
-      "registrationDate": "03/2022",
-      "color": "Blanc",
-      "price": 22999.0,
-      "km": 80009,
-      "hp": 105,
-      "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/8bGlWsqSlSFrIcev.jpeg",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "KIA RIO IV 1.2 85 ch – 2020",
-          "price": 11900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/kia-rio-iv-1-2-85-ch-2020-xcn"
-        }
-      ]
     },
     {
       "id": "3974321",
@@ -7871,27 +4090,6 @@
       "competitors": [
         {
           "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
           "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
           "price": 8000,
           "km": null,
@@ -7913,44 +4111,6 @@
       "km": 29242,
       "hp": 102,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/hrFTjx51oKgHEBG8.jpeg",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "DACIA SANDERO STEPWAY CONFORT 1.0 TCe 90 ch – 2021",
-          "price": 12900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-sandero-stepway-confort-1-0-tce-90-ch-2021-apx"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        }
-      ]
-    },
-    {
-      "id": "4008223",
-      "externalId": "302_re97c2",
-      "make": "Volkswagen",
-      "model": "T-Cross",
-      "version": "1.0 TSI 95ch Lounge",
-      "bodyType": "SUV VP",
-      "fuelType": "essence",
-      "registrationDate": "04/2022",
-      "color": "Blanc",
-      "price": 21999.0,
-      "km": 54000,
-      "hp": 95,
-      "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/hFI3CmtvJfMZdALd.jpeg",
       "competitors": []
     },
     {
@@ -7999,15 +4159,7 @@
       "km": 91500,
       "hp": 69,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/A607evxid3QvGtWb.jpeg",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "PEUGEOT 5008 CROSSWAY 7 PLACES",
-          "price": 23900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/peugeot-5008-crossway-7-places-ics"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "4024925",
@@ -8039,15 +4191,7 @@
       "km": 25000,
       "hp": 93,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "KIA RIO IV 1.2 85 ch – 2020",
-          "price": 11900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/kia-rio-iv-1-2-85-ch-2020-xcn"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "4059486",
@@ -8070,65 +4214,6 @@
           "price": 12900,
           "km": null,
           "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-sandero-stepway-confort-1-0-tce-90-ch-2021-apx"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        }
-      ]
-    },
-    {
-      "id": "4075838",
-      "externalId": "PO45018334_re97c2",
-      "make": "Renault",
-      "model": "Clio",
-      "version": "1.6 E-Tech hybride 145ch Equilibre",
-      "bodyType": "berline",
-      "fuelType": "hybride",
-      "registrationDate": "03/2022",
-      "color": "Blanc",
-      "price": 16999.0,
-      "km": 58536,
-      "hp": 91,
-      "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
         }
       ]
     },
@@ -8146,36 +4231,7 @@
       "km": 27180,
       "hp": 109,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/sjVGMSkijpNsF0HC.jpeg",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "4075842",
@@ -8198,20 +4254,6 @@
           "price": 12900,
           "km": null,
           "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-sandero-stepway-confort-1-0-tce-90-ch-2021-apx"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
         }
       ]
     },
@@ -8229,36 +4271,23 @@
       "km": 45383,
       "hp": 131,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/S6iRJZhd2R15UzwP.jpeg",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT ALASKAN DOUBLE CABINE ZEN 2.3 dCi 160 ch",
-          "price": 40000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-alaskan-double-cabine-zen-2-3-dci-160-ch-hmr"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT KANGOO 5 PLACES 1.5 dCi 95 ch – 2019",
-          "price": 14500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-kangoo-5-places-1-5-dci-95-ch-2019-bwo"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "RENAULT Captur 1.3 TCe 140ch 5p",
-          "price": 17500,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-captur-1-3-tce-140ch-5p-obu"
-        },
-        {
-          "source": "Cyphoma",
-          "title": "Renault Clio 4 Phase 2 – 2020 – Très propre, fiable et",
-          "price": 8000,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/renault-clio-4-phase-2-2020-tres-propre-fiable-et-uns"
-        }
-      ]
+      "competitors": []
+    },
+    {
+      "id": "4110308",
+      "externalId": "164_re97c2",
+      "make": "Renault",
+      "model": "TRAFIC",
+      "version": "Combi L1 2.0 Blue dCi 150ch S&S Zen 8 places",
+      "bodyType": "combi",
+      "fuelType": "diesel",
+      "registrationDate": "11/2021",
+      "color": "Blanc",
+      "price": 24999.0,
+      "km": 109968,
+      "hp": 150,
+      "photo": "",
+      "competitors": []
     }
   ]
 }
