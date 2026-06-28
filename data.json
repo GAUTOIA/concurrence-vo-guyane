@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-27T10:41:58.975752",
+  "updated_at": "2026-06-28T11:02:35.681114",
   "vehicles": [
     {
       "id": "2429847",
@@ -866,22 +866,6 @@
       ]
     },
     {
-      "id": "3680311",
-      "externalId": "184_re97c2",
-      "make": "Peugeot",
-      "model": "108",
-      "version": "VTi 72 Active 5p",
-      "bodyType": "Citadine",
-      "fuelType": "essence",
-      "registrationDate": "01/2020",
-      "color": "Vert",
-      "price": 10999.0,
-      "km": 67169,
-      "hp": 72,
-      "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/jmO704ECDkcTvN4s.jpeg",
-      "competitors": []
-    },
-    {
       "id": "3680313",
       "externalId": "46_re97c2",
       "make": "Dacia",
@@ -1018,7 +1002,7 @@
       "bodyType": "SUV VP",
       "fuelType": "diesel",
       "registrationDate": "01/2020",
-      "color": "Blanc",
+      "color": "Gris",
       "price": 14900.0,
       "km": 96751,
       "hp": 95,
@@ -1415,15 +1399,7 @@
       "km": 60305,
       "hp": 110,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860160",
@@ -1831,15 +1807,7 @@
       "km": 38109,
       "hp": 110,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860186",
@@ -2479,15 +2447,7 @@
       "km": 47810,
       "hp": 110,
       "photo": "",
-      "competitors": [
-        {
-          "source": "Cyphoma",
-          "title": "DACIA JOGGER SÉRIE LIMITÉE EXTREME+",
-          "price": 13900,
-          "km": null,
-          "url": "https://www.cyphoma.com/guyane/annonces/voitures/dacia-jogger-serie-limitee-extreme"
-        }
-      ]
+      "competitors": []
     },
     {
       "id": "3860241",
@@ -3906,7 +3866,7 @@
       "bodyType": "monospace",
       "fuelType": "essence",
       "registrationDate": "08/2021",
-      "color": "Blanc",
+      "color": "Gris",
       "price": 17999.0,
       "km": 29242,
       "hp": 102,
