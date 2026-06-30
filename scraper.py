@@ -426,6 +426,32 @@ tr.comp-row td{padding:0 0 0 48px;border-bottom:1px solid var(--border);backgrou
 
 /* RESPONSIVE */
 @media(max-width:768px){.filters input{width:100%}.stats{flex-wrap:wrap}}
+
+/* REFRESH BUTTON */
+.btn-refresh{display:inline-flex;align-items:center;gap:7px;background:var(--accent);color:#fff;border:none;border-radius:8px;padding:8px 16px;font-size:13px;font-weight:600;cursor:pointer;transition:opacity .15s}
+.btn-refresh:hover{opacity:.85}
+.btn-refresh:disabled{opacity:.5;cursor:not-allowed}
+.btn-refresh .spin{display:inline-block;animation:spin 1s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.refresh-status{font-size:12px;color:var(--muted);margin-left:8px}
+.refresh-status.ok{color:var(--green)}
+.refresh-status.err{color:var(--red)}
+
+/* MODAL */
+.modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:200;align-items:center;justify-content:center}
+.modal-overlay.open{display:flex}
+.modal{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:28px;width:440px;max-width:90vw}
+.modal h2{font-size:16px;font-weight:700;margin-bottom:8px;color:#fff}
+.modal p{font-size:13px;color:var(--muted);margin-bottom:16px;line-height:1.6}
+.modal a{color:var(--blue)}
+.modal input{width:100%;background:#0f172a;color:var(--text);border:1px solid var(--border);border-radius:6px;padding:9px 12px;font-size:13px;outline:none;margin-bottom:16px;font-family:monospace}
+.modal input:focus{border-color:var(--accent)}
+.modal-btns{display:flex;gap:10px;justify-content:flex-end}
+.modal-btns button{padding:8px 18px;border-radius:6px;border:none;font-size:13px;font-weight:600;cursor:pointer}
+.btn-cancel{background:var(--border);color:var(--text)}
+.btn-ok{background:var(--accent);color:#fff}
+.btn-cancel:hover{background:#475569}
+.btn-ok:hover{opacity:.85}
 </style>
 </head>
 <body>
@@ -433,7 +459,26 @@ tr.comp-row td{padding:0 0 0 48px;border-bottom:1px solid var(--border);backgrou
 <header>
   <h1>🚗 Veille Prix VO — Guyane</h1>
   <span class="meta">Actualisé le <strong id="updated-date">__UPDATED__</strong></span>
+  <button class="btn-refresh" id="btn-refresh" onclick="triggerRefresh()">
+    <span id="refresh-icon">↻</span> Mettre à jour
+  </button>
+  <span class="refresh-status" id="refresh-status"></span>
 </header>
+
+<!-- Modal saisie token GitHub -->
+<div class="modal-overlay" id="modal-overlay">
+  <div class="modal">
+    <h2>Token GitHub requis</h2>
+    <p>Pour déclencher le scraping depuis le dashboard, entrez un <strong>Personal Access Token</strong> GitHub avec la permission <code>workflow</code>.<br><br>
+    Créer un token : <a href="https://github.com/settings/tokens/new?scopes=workflow&description=Veille+VO+dashboard" target="_blank" rel="noopener">github.com/settings/tokens</a><br><br>
+    Le token est stocké uniquement dans votre navigateur (localStorage).</p>
+    <input type="password" id="token-input" placeholder="ghp_xxxxxxxxxxxxxxxxxxxx">
+    <div class="modal-btns">
+      <button class="btn-cancel" onclick="closeModal()">Annuler</button>
+      <button class="btn-ok" onclick="saveTokenAndRun()">Enregistrer et lancer</button>
+    </div>
+  </div>
+</div>
 
 <div class="filters">
   <input type="text" id="search" placeholder="🔎 Marque, modèle, version…" oninput="filterTable()">
@@ -540,6 +585,77 @@ function filterTable(){
 function minPrice(v){
   const prices=v.competitors.map(c=>c.price).filter(p=>p&&p>1000);
   return prices.length?Math.min(...prices):null;
+}
+
+const REPO='GAUTOIA/concurrence-vo-guyane';
+const WORKFLOW='daily.yml';
+const TOKEN_KEY='gh_pat_veille_vo';
+
+function triggerRefresh(){
+  const token=localStorage.getItem(TOKEN_KEY);
+  if(!token){
+    document.getElementById('modal-overlay').classList.add('open');
+    return;
+  }
+  runWorkflow(token);
+}
+
+function closeModal(){
+  document.getElementById('modal-overlay').classList.remove('open');
+  document.getElementById('token-input').value='';
+}
+
+function saveTokenAndRun(){
+  const token=document.getElementById('token-input').value.trim();
+  if(!token){return;}
+  localStorage.setItem(TOKEN_KEY,token);
+  closeModal();
+  runWorkflow(token);
+}
+
+async function runWorkflow(token){
+  const btn=document.getElementById('btn-refresh');
+  const icon=document.getElementById('refresh-icon');
+  const status=document.getElementById('refresh-status');
+  btn.disabled=true;
+  icon.className='spin';
+  icon.textContent='↻';
+  status.className='refresh-status';
+  status.textContent='Lancement en cours…';
+
+  try{
+    const res=await fetch(
+      `https://api.github.com/repos/${REPO}/actions/workflows/${WORKFLOW}/dispatches`,
+      {
+        method:'POST',
+        headers:{
+          'Authorization':`Bearer ${token}`,
+          'Accept':'application/vnd.github+json',
+          'Content-Type':'application/json',
+        },
+        body:JSON.stringify({ref:'master'}),
+      }
+    );
+    if(res.status===204){
+      icon.className='';icon.textContent='✓';
+      status.className='refresh-status ok';
+      status.textContent='Scraping lancé — mise à jour dans ~10 min';
+      setTimeout(()=>{status.textContent='';icon.textContent='↻';btn.disabled=false;},15000);
+    } else if(res.status===401){
+      localStorage.removeItem(TOKEN_KEY);
+      icon.className='';icon.textContent='↻';
+      status.className='refresh-status err';
+      status.textContent='Token invalide — cliquez à nouveau pour le ressaisir';
+      btn.disabled=false;
+    } else {
+      throw new Error(`HTTP ${res.status}`);
+    }
+  }catch(e){
+    icon.className='';icon.textContent='↻';
+    status.className='refresh-status err';
+    status.textContent=`Erreur : ${e.message}`;
+    btn.disabled=false;
+  }
 }
 
 let sortCol=-1,sortDir=1;
