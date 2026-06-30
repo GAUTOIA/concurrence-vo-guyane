@@ -1,10 +1,7 @@
 name: Veille Prix VO – Actualisation quotidienne
 
 on:
-  schedule:
-    # Tous les jours à 6h00 heure de Paris (UTC+3 en été = 03:00 UTC)
-    - cron: "0 3 * * *"
-  workflow_dispatch: # Lancement manuel possible depuis GitHub
+  workflow_dispatch: # Lancement manuel uniquement (bouton dashboard ou GitHub)
 
 permissions:
   contents: write
