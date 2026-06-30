@@ -613,6 +613,8 @@ function saveTokenAndRun(){
   runWorkflow(token);
 }
 
+let pollInterval=null;
+
 async function runWorkflow(token){
   const btn=document.getElementById('btn-refresh');
   const icon=document.getElementById('refresh-icon');
@@ -637,15 +639,19 @@ async function runWorkflow(token){
       }
     );
     if(res.status===204){
-      icon.className='';icon.textContent='✓';
-      status.className='refresh-status ok';
-      status.textContent='Scraping lancé — mise à jour dans ~10 min';
-      setTimeout(()=>{status.textContent='';icon.textContent='↻';btn.disabled=false;},15000);
-    } else if(res.status===401){
+      const startedAt=Date.now();
+      icon.className='spin';icon.textContent='↻';
+      status.className='refresh-status';
+      status.textContent='Scraping en cours…';
+      // Attendre 20s avant de commencer à poll (le run met quelques secondes à apparaître)
+      setTimeout(()=>pollRunStatus(token,startedAt),20000);
+    } else if(res.status===401||res.status===403){
       localStorage.removeItem(TOKEN_KEY);
       icon.className='';icon.textContent='↻';
       status.className='refresh-status err';
-      status.textContent='Token invalide — cliquez à nouveau pour le ressaisir';
+      status.textContent=res.status===403
+        ? 'Accès refusé (403) — token sans scope "workflow" ? Cliquez pour ressaisir'
+        : 'Token invalide — cliquez à nouveau pour le ressaisir';
       btn.disabled=false;
     } else {
       throw new Error(`HTTP ${res.status}`);
@@ -656,6 +662,50 @@ async function runWorkflow(token){
     status.textContent=`Erreur : ${e.message}`;
     btn.disabled=false;
   }
+}
+
+async function pollRunStatus(token,startedAt){
+  const btn=document.getElementById('btn-refresh');
+  const icon=document.getElementById('refresh-icon');
+  const status=document.getElementById('refresh-status');
+
+  const check=async()=>{
+    const elapsed=Math.round((Date.now()-startedAt)/1000);
+    const mm=Math.floor(elapsed/60),ss=elapsed%60;
+    const timeStr=mm>0?`${mm}min ${ss}s`:`${ss}s`;
+    try{
+      const res=await fetch(
+        `https://api.github.com/repos/${REPO}/actions/workflows/${WORKFLOW}/runs?per_page=1`,
+        {headers:{'Authorization':`Bearer ${token}`,'Accept':'application/vnd.github+json'}}
+      );
+      const data=await res.json();
+      const run=data.workflow_runs&&data.workflow_runs[0];
+      if(!run){
+        status.textContent=`Scraping en cours… (${timeStr})`;
+        return;
+      }
+      if(run.status==='completed'){
+        clearInterval(pollInterval);pollInterval=null;
+        if(run.conclusion==='success'){
+          icon.className='';icon.textContent='✓';
+          status.className='refresh-status ok';
+          status.innerHTML=`Mise à jour terminée (${timeStr}) — <a href="" onclick="location.reload();return false;">Recharger la page</a>`;
+        } else {
+          icon.className='';icon.textContent='!';
+          status.className='refresh-status err';
+          status.textContent=`Scraping échoué (${run.conclusion}) — voir GitHub Actions`;
+        }
+        btn.disabled=false;
+      } else {
+        status.textContent=`Scraping en cours… (${timeStr})`;
+      }
+    }catch(e){
+      status.textContent=`Scraping en cours… (${timeStr})`;
+    }
+  };
+
+  await check();
+  pollInterval=setInterval(check,30000);
 }
 
 let sortCol=-1,sortDir=1;
