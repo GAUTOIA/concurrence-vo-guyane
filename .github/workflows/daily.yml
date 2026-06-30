@@ -33,6 +33,7 @@ jobs:
         run: python scraper.py
         env:
           PYTHONUNBUFFERED: "1"
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
 
       - name: Vérifier que index.html a été généré
         run: |

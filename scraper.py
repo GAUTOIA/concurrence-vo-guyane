@@ -142,74 +142,49 @@ def search_cyphoma(make, model):
     return results
 
 
-LBC_BASE_URL = "https://www.leboncoin.fr/cl/voitures/rp_guyane"
-LBC_WEB_HEADERS = {
-    "User-Agent": HEADERS["User-Agent"],
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-    "Accept-Language": "fr-FR,fr;q=0.9",
-    "Accept-Encoding": "gzip, deflate, br",
-}
-
-
 def load_leboncoin_all():
-    """Charge toutes les annonces voitures de Guyane en parsant __NEXT_DATA__ du HTML SSR."""
-    all_ads = []
-    page = 1
+    """Charge les annonces LeBonCoin Guyane via l'actor Apify clearpath/leboncoin-api."""
+    token = os.environ.get("APIFY_TOKEN", "")
+    if not token:
+        print("   ⚠ APIFY_TOKEN non défini, LeBonCoin ignoré")
+        return []
 
     try:
-        while True:
-            url = LBC_BASE_URL if page == 1 else f"{LBC_BASE_URL}?page={page}"
-            resp = requests.get(url, headers=LBC_WEB_HEADERS, timeout=20)
-            resp.raise_for_status()
+        from apify_client import ApifyClient
+        client = ApifyClient(token)
 
-            match = re.search(
-                r'<script id="__NEXT_DATA__" type="application/json">(.*?)</script>',
-                resp.text, re.DOTALL
-            )
-            if not match:
-                print(f"   ⚠ LeBonCoin page {page}: __NEXT_DATA__ introuvable")
-                break
+        run_input = {
+            "searchUrl": "https://www.leboncoin.fr/cl/voitures/rp_guyane",
+            "adLimit": 0,
+            "seller_type": "all",
+        }
 
-            data = json.loads(match.group(1))
-            search_data = (data.get("props") or {}).get("pageProps", {}).get("searchData", {})
-            ads = search_data.get("ads", [])
-            max_pages = search_data.get("max_pages", 1)
+        print("   ⏳ Apify: lancement scraping LeBonCoin (peut prendre 2-3 min)...")
+        run = client.actor("clearpath/leboncoin-api").call(run_input=run_input, timeout_secs=600)
 
-            if not ads:
-                break
+        all_ads = []
+        for item in client.dataset(run["defaultDatasetId"]).iterate_items():
+            price = item.get("price_euros")
+            km_raw = item.get("mileage")
+            brand = (item.get("brand") or "").upper()
+            ad_model = (item.get("model") or "").upper()
+            title = item.get("title", "")
+            ad_url = item.get("url", "")
+            all_ads.append({
+                "source": "LeBonCoin",
+                "title": title[:80],
+                "brand": brand,
+                "lbc_model": ad_model,
+                "price": int(price) if price else None,
+                "km": parse_km(str(km_raw)) if km_raw else None,
+                "url": ad_url,
+            })
 
-            for ad in ads:
-                attrs = {
-                    a["key"]: a.get("value_label") or (a.get("values") or [None])[0]
-                    for a in ad.get("attributes", [])
-                }
-                price = ad.get("price", [None])[0] if ad.get("price") else None
-                km_raw = attrs.get("mileage")
-                brand = (attrs.get("u_car_brand") or "").upper()
-                ad_model = (attrs.get("u_car_model") or "").upper()
-                title = ad.get("subject", "")
-                ad_url = ad.get("url", "")
-                if not ad_url.startswith("http"):
-                    ad_url = "https://www.leboncoin.fr" + ad_url
-                all_ads.append({
-                    "source": "LeBonCoin",
-                    "title": title[:80],
-                    "brand": brand,
-                    "lbc_model": ad_model,
-                    "price": int(price) if price else None,
-                    "km": parse_km(str(km_raw)) if km_raw else None,
-                    "url": ad_url,
-                })
-
-            if page >= max_pages:
-                break
-            page += 1
-            time.sleep(1)
+        return all_ads
 
     except Exception as e:
-        print(f"   ⚠ LeBonCoin HTML: {e}")
-
-    return all_ads
+        print(f"   ⚠ Apify LeBonCoin: {e}")
+        return []
 
 
 def search_leboncoin(lbc_cache, make, model):
