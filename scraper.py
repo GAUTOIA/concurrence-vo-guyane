@@ -142,19 +142,23 @@ def search_cyphoma(make, model):
     return results
 
 
-def search_leboncoin(page, make, model):
-    results = []
-    query = quote_plus(f"{make} {model}")
-    url = f"https://www.leboncoin.fr/cl/voitures/rp_guyane?text={query}"
+def load_leboncoin_all(page, max_pages=3):
+    """Charge les N premières pages de voitures Guyane LeBonCoin en une seule passe."""
+    all_ads = []
+    base_url = "https://www.leboncoin.fr/cl/voitures/rp_guyane"
 
     try:
-        page.goto(url, wait_until="domcontentloaded", timeout=30000)
-        page.wait_for_timeout(2500)
+        page.goto(base_url, wait_until="domcontentloaded", timeout=30000)
+        page.wait_for_timeout(3000)
 
-        # Accept cookies banner
-        for btn_text in ["Tout accepter", "Accepter et fermer", "Accepter"]:
+        # Refuser les cookies
+        for selector in [
+            "text=Je refuse",
+            "text=Continuer sans accepter",
+            "text=Continuer sans Accepter",
+        ]:
             try:
-                btn = page.locator(f"button:has-text('{btn_text}')").first
+                btn = page.locator(selector).first
                 if btn.is_visible(timeout=2000):
                     btn.click()
                     page.wait_for_timeout(1000)
@@ -162,90 +166,118 @@ def search_leboncoin(page, make, model):
             except Exception:
                 pass
 
-        cards = page.locator("a[data-qa-id='aditem_container']").all()
-
-        for card in cards[:12]:
+        for page_num in range(max_pages):
             try:
-                title = card.locator("[data-qa-id='aditem_title']").inner_text(timeout=2000)
-                price_raw = card.locator("span[aria-label*='€'], [data-qa-id='aditem_price']").first.inner_text(timeout=2000)
-                href = card.get_attribute("href") or ""
-                if not href.startswith("http"):
-                    href = "https://www.leboncoin.fr" + href
+                page.wait_for_selector("[data-qa-id='aditem_container']", timeout=10000)
+            except Exception:
+                break
 
-                if not (make.lower() in title.lower() and model.lower() in title.lower()):
+            cards = page.locator("[data-qa-id='aditem_container']").all()
+            for card in cards:
+                try:
+                    title = card.locator("p[class*='text-body-1-highlight']").first.inner_text(timeout=2000).strip()
+                    price_raw = ""
+                    try:
+                        price_raw = card.locator("span[class*='text-success']").first.inner_text(timeout=1500)
+                    except Exception:
+                        pass
+                    href = card.locator("a[href*='/ad/voitures/']").first.get_attribute("href") or ""
+                    if href and not href.startswith("http"):
+                        href = "https://www.leboncoin.fr" + href
+                    km_raw = ""
+                    try:
+                        sr_text = card.locator("p.sr-only").filter(has_text="Kilométrage").first.inner_text(timeout=1000)
+                        km_match = re.search(r"Kilom[^0-9]*([0-9\s]+)\s*km", sr_text, re.IGNORECASE)
+                        if km_match:
+                            km_raw = km_match.group(1)
+                    except Exception:
+                        pass
+                    if not title:
+                        continue
+                    all_ads.append({
+                        "source": "LeBonCoin",
+                        "title": title[:80],
+                        "price": parse_price(price_raw),
+                        "km": parse_km(km_raw),
+                        "url": href,
+                    })
+                except Exception:
                     continue
 
-                # Try to get km from attributes row
-                km_raw = ""
+            if page_num < max_pages - 1:
                 try:
-                    attrs = card.locator("[data-qa-id='aditem_detail']").inner_text(timeout=1000)
-                    km_match = re.search(r"([\d\s]+)\s*km", attrs, re.IGNORECASE)
-                    if km_match:
-                        km_raw = km_match.group(1)
+                    next_btn = page.locator("[aria-label='Page suivante'], [data-qa-id='pagination-next']").first
+                    if next_btn.is_visible(timeout=3000):
+                        next_btn.click()
+                        page.wait_for_timeout(2500)
+                    else:
+                        break
                 except Exception:
-                    pass
-
-                results.append({
-                    "source": "LeBonCoin",
-                    "title": title.strip()[:80],
-                    "price": parse_price(price_raw),
-                    "km": parse_km(km_raw),
-                    "url": href,
-                })
-            except Exception:
-                continue
+                    break
 
     except Exception as e:
-        print(f"   ⚠ LeBonCoin [{make} {model}]: {e}")
+        print(f"   ⚠ LeBonCoin chargement: {e}")
 
-    return results
+    return all_ads
 
 
-def search_guyaneoccasions(page, make, model):
-    results = []
+def search_leboncoin(lbc_cache, make, model):
+    """Filtre le cache LeBonCoin pré-chargé par marque/modèle."""
+    make_l = make.lower()
+    model_l = model.lower()
+    return [
+        ad for ad in lbc_cache
+        if make_l in ad["title"].lower() and model_l in ad["title"].lower()
+    ][:10]
 
+
+def load_guyaneoccasions_all(page):
+    """Charge tous les véhicules GuyaneOccasions via le store Vuex en sessionStorage."""
     try:
-        # Try search via query string
-        query = quote_plus(f"{make} {model}")
-        url = f"https://guyaneoccasions.com/?s={query}&post_type=vehicule"
-        page.goto(url, wait_until="domcontentloaded", timeout=30000)
-        page.wait_for_timeout(2000)
+        page.goto("https://guyaneoccasions.com/recherche", wait_until="domcontentloaded", timeout=30000)
+        page.wait_for_timeout(5000)
 
-        cards = page.locator("article, .vehicle-item, .car-item, .listing-item, .post").all()
+        cars = page.evaluate("""() => {
+            const raw = sessionStorage.getItem('vuex-guyaneoccasions');
+            if (!raw) return [];
+            try {
+                const store = JSON.parse(raw);
+                return store.cars && store.cars.cars ? store.cars.cars : [];
+            } catch(e) { return []; }
+        }""")
 
-        for card in cards[:12]:
-            try:
-                title_el = card.locator("h2, h3, .title, .vehicle-title").first
-                title = title_el.inner_text(timeout=1000).strip()
-
-                if not (make.lower() in title.lower() and model.lower() in title.lower()):
-                    continue
-
-                price_raw = ""
-                try:
-                    price_raw = card.locator(".price, .prix, [class*='price']").first.inner_text(timeout=1000)
-                except Exception:
-                    pass
-
-                href = ""
-                try:
-                    href = card.locator("a").first.get_attribute("href") or ""
-                except Exception:
-                    pass
-
-                results.append({
-                    "source": "GuyaneOccasions",
-                    "title": title[:80],
-                    "price": parse_price(price_raw),
-                    "km": None,
-                    "url": href,
-                })
-            except Exception:
-                continue
+        result = []
+        for car in (cars or []):
+            uuid = car.get("uuid", "")
+            result.append({
+                "marque": (car.get("marque") or "").upper(),
+                "serie": (car.get("serie") or "").upper(),
+                "title": f"{car.get('marque', '')} {car.get('serie', '')}".strip()[:80],
+                "price": car.get("price"),
+                "km": car.get("kilometrage"),
+                "url": f"https://guyaneoccasions.com/vehicule/{uuid}" if uuid else "",
+            })
+        return result
 
     except Exception as e:
-        print(f"   ⚠ GuyaneOccasions [{make} {model}]: {e}")
+        print(f"   ⚠ GuyaneOccasions chargement: {e}")
+        return []
 
+
+def search_guyaneoccasions(guo_cache, make, model):
+    """Filtre le cache GuyaneOccasions pré-chargé par marque/modèle."""
+    make_u = make.upper()
+    model_u = model.upper()
+    results = []
+    for car in guo_cache:
+        if make_u in car["marque"] and model_u in car["serie"]:
+            results.append({
+                "source": "GuyaneOccasions",
+                "title": car["title"],
+                "price": car["price"],
+                "km": car["km"],
+                "url": car["url"],
+            })
     return results
 
 
@@ -271,17 +303,26 @@ def run_scraping(vehicles):
         lbc_page = context.new_page()
         guo_page = context.new_page()
 
+        # Charger LeBonCoin et GuyaneOccasions UNE SEULE FOIS
+        print("   📥 Chargement LeBonCoin Guyane (3 pages)...")
+        lbc_cache = load_leboncoin_all(lbc_page, max_pages=3)
+        print(f"   → {len(lbc_cache)} annonces LeBonCoin chargées")
+
+        print("   📥 Chargement GuyaneOccasions...")
+        guo_cache = load_guyaneoccasions_all(guo_page)
+        print(f"   → {len(guo_cache)} véhicules GuyaneOccasions chargés")
+
         for i, (make, model) in enumerate(pairs, 1):
             key = f"{make}|{model}"
             print(f"   [{i}/{len(pairs)}] {make} {model}")
 
             comps = []
             comps += search_cyphoma(make, model)
-            comps += search_leboncoin(lbc_page, make, model)
-            comps += search_guyaneoccasions(guo_page, make, model)
+            comps += search_leboncoin(lbc_cache, make, model)
+            comps += search_guyaneoccasions(guo_cache, make, model)
 
             cache[key] = comps
-            time.sleep(1.5)
+            time.sleep(0.2)
 
         browser.close()
 
