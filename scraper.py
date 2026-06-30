@@ -154,12 +154,13 @@ def load_leboncoin_all():
         client = ApifyClient(token)
 
         run_input = {
-            "startUrls": ["https://www.leboncoin.fr/cl/voitures/rp_guyane"],
+            "startUrls": ["https://www.leboncoin.fr/recherche?category=2&locations=Guyane"],
             "resultLimitPerThread": 3500,
         }
 
         print("   ⏳ Apify: lancement scraping LeBonCoin (peut prendre 2-3 min)...")
         run = client.actor("3x1t/leboncoin-vehicle-scraper-ppe").call(run_input=run_input)
+        print(f"   → Run status: {getattr(run, 'status', '?')}, dataset: {getattr(run, 'default_dataset_id', '?')}")
 
         all_ads = []
         for item in client.dataset(run.default_dataset_id).iterate_items():
