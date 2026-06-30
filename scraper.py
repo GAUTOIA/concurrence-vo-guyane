@@ -142,93 +142,97 @@ def search_cyphoma(make, model):
     return results
 
 
-def load_leboncoin_all(page, max_pages=15):
-    """Charge les N premières pages de voitures Guyane LeBonCoin en une seule passe."""
+LBC_BASE_URL = "https://www.leboncoin.fr/cl/voitures/rp_guyane"
+LBC_WEB_HEADERS = {
+    "User-Agent": HEADERS["User-Agent"],
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "fr-FR,fr;q=0.9",
+    "Accept-Encoding": "gzip, deflate, br",
+}
+
+
+def load_leboncoin_all():
+    """Charge toutes les annonces voitures de Guyane en parsant __NEXT_DATA__ du HTML SSR."""
     all_ads = []
-    base_url = "https://www.leboncoin.fr/cl/voitures/rp_guyane"
+    page = 1
 
     try:
-        page.goto(base_url, wait_until="domcontentloaded", timeout=30000)
-        page.wait_for_timeout(3000)
+        while True:
+            url = LBC_BASE_URL if page == 1 else f"{LBC_BASE_URL}?page={page}"
+            resp = requests.get(url, headers=LBC_WEB_HEADERS, timeout=20)
+            resp.raise_for_status()
 
-        # Refuser les cookies
-        for selector in [
-            "text=Je refuse",
-            "text=Continuer sans accepter",
-            "text=Continuer sans Accepter",
-        ]:
-            try:
-                btn = page.locator(selector).first
-                if btn.is_visible(timeout=2000):
-                    btn.click()
-                    page.wait_for_timeout(1000)
-                    break
-            except Exception:
-                pass
-
-        for page_num in range(max_pages):
-            try:
-                page.wait_for_selector("[data-qa-id='aditem_container']", timeout=10000)
-            except Exception:
+            match = re.search(
+                r'<script id="__NEXT_DATA__" type="application/json">(.*?)</script>',
+                resp.text, re.DOTALL
+            )
+            if not match:
+                print(f"   ⚠ LeBonCoin page {page}: __NEXT_DATA__ introuvable")
                 break
 
-            cards = page.locator("[data-qa-id='aditem_container']").all()
-            for card in cards:
-                try:
-                    title = card.locator("p[class*='text-body-1-highlight']").first.inner_text(timeout=2000).strip()
-                    price_raw = ""
-                    try:
-                        price_raw = card.locator("span[class*='text-success']").first.inner_text(timeout=1500)
-                    except Exception:
-                        pass
-                    href = card.locator("a[href*='/ad/voitures/']").first.get_attribute("href") or ""
-                    if href and not href.startswith("http"):
-                        href = "https://www.leboncoin.fr" + href
-                    km_raw = ""
-                    try:
-                        sr_text = card.locator("p.sr-only").filter(has_text="Kilométrage").first.inner_text(timeout=1000)
-                        km_match = re.search(r"Kilom[^0-9]*([0-9\s]+)\s*km", sr_text, re.IGNORECASE)
-                        if km_match:
-                            km_raw = km_match.group(1)
-                    except Exception:
-                        pass
-                    if not title:
-                        continue
-                    all_ads.append({
-                        "source": "LeBonCoin",
-                        "title": title[:80],
-                        "price": parse_price(price_raw),
-                        "km": parse_km(km_raw),
-                        "url": href,
-                    })
-                except Exception:
-                    continue
+            data = json.loads(match.group(1))
+            search_data = (data.get("props") or {}).get("pageProps", {}).get("searchData", {})
+            ads = search_data.get("ads", [])
+            max_pages = search_data.get("max_pages", 1)
 
-            if page_num < max_pages - 1:
-                try:
-                    next_btn = page.locator("[aria-label='Page suivante'], [data-qa-id='pagination-next']").first
-                    if next_btn.is_visible(timeout=3000):
-                        next_btn.click()
-                        page.wait_for_timeout(2500)
-                    else:
-                        break
-                except Exception:
-                    break
+            if not ads:
+                break
+
+            for ad in ads:
+                attrs = {
+                    a["key"]: a.get("value_label") or (a.get("values") or [None])[0]
+                    for a in ad.get("attributes", [])
+                }
+                price = ad.get("price", [None])[0] if ad.get("price") else None
+                km_raw = attrs.get("mileage")
+                brand = (attrs.get("u_car_brand") or "").upper()
+                ad_model = (attrs.get("u_car_model") or "").upper()
+                title = ad.get("subject", "")
+                ad_url = ad.get("url", "")
+                if not ad_url.startswith("http"):
+                    ad_url = "https://www.leboncoin.fr" + ad_url
+                all_ads.append({
+                    "source": "LeBonCoin",
+                    "title": title[:80],
+                    "brand": brand,
+                    "lbc_model": ad_model,
+                    "price": int(price) if price else None,
+                    "km": parse_km(str(km_raw)) if km_raw else None,
+                    "url": ad_url,
+                })
+
+            if page >= max_pages:
+                break
+            page += 1
+            time.sleep(1)
 
     except Exception as e:
-        print(f"   ⚠ LeBonCoin chargement: {e}")
+        print(f"   ⚠ LeBonCoin HTML: {e}")
 
     return all_ads
 
 
 def search_leboncoin(lbc_cache, make, model):
     """Filtre le cache LeBonCoin pré-chargé par marque/modèle."""
-    make_l = make.lower()
-    model_l = model.lower()
-    return [
-        ad for ad in lbc_cache
-        if make_l in ad["title"].lower() and model_l in ad["title"].lower()
-    ][:10]
+    make_u = make.upper()
+    model_u = model.upper()
+    results = []
+    for ad in lbc_cache:
+        brand = ad.get("brand", "")
+        ad_model = ad.get("lbc_model", "")
+        if brand and ad_model:
+            matched = make_u in brand and model_u in ad_model
+        else:
+            matched = make.lower() in ad["title"].lower() and model.lower() in ad["title"].lower()
+        if matched:
+            results.append({
+                "source": ad["source"],
+                "title": ad["title"],
+                "price": ad["price"],
+                "km": ad["km"],
+                "url": ad["url"],
+            })
+    return results[:10]
 
 
 def load_guyaneoccasions_all(page):
@@ -300,17 +304,25 @@ def run_scraping(vehicles):
             locale="fr-FR",
             viewport={"width": 1280, "height": 800},
         )
-        lbc_page = context.new_page()
         guo_page = context.new_page()
 
-        # Charger LeBonCoin et GuyaneOccasions UNE SEULE FOIS
-        print("   📥 Chargement LeBonCoin Guyane (toutes les pages)...")
-        lbc_cache = load_leboncoin_all(lbc_page, max_pages=15)
-        print(f"   → {len(lbc_cache)} annonces LeBonCoin chargées")
+        # Charger LeBonCoin via API (pas de Playwright)
+        print("   📥 Chargement LeBonCoin Guyane (HTML)...")
+        lbc_cache = []
+        try:
+            lbc_cache = load_leboncoin_all()
+            print(f"   → {len(lbc_cache)} annonces LeBonCoin chargées")
+        except Exception as e:
+            print(f"   ⚠ LeBonCoin ignoré : {e}")
 
+        # Charger GuyaneOccasions via Playwright
         print("   📥 Chargement GuyaneOccasions...")
-        guo_cache = load_guyaneoccasions_all(guo_page)
-        print(f"   → {len(guo_cache)} véhicules GuyaneOccasions chargés")
+        guo_cache = []
+        try:
+            guo_cache = load_guyaneoccasions_all(guo_page)
+            print(f"   → {len(guo_cache)} véhicules GuyaneOccasions chargés")
+        except Exception as e:
+            print(f"   ⚠ GuyaneOccasions ignoré : {e}")
 
         for i, (make, model) in enumerate(pairs, 1):
             key = f"{make}|{model}"
