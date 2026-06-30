@@ -162,7 +162,7 @@ def load_leboncoin_all():
         run = client.actor("3x1t/leboncoin-vehicle-scraper-ppe").call(run_input=run_input)
 
         all_ads = []
-        for item in client.dataset(run["defaultDatasetId"]).iterate_items():
+        for item in client.dataset(run.default_dataset_id).iterate_items():
             price_obj = item.get("price") or {}
             price = price_obj.get("amount") if isinstance(price_obj, dict) else price_obj
             attrs = item.get("attributes") or {}
