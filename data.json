@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-30T12:06:57.368603",
+  "updated_at": "2026-06-30T14:59:47.991458",
   "vehicles": [
     {
       "id": "2429847",
@@ -95,7 +95,22 @@
       "km": 64500,
       "hp": 67,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/KL6y7OijIqOnFXfF.jpeg",
-      "competitors": []
+      "competitors": [
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO SOCIETE",
+          "price": 12900,
+          "km": 25697,
+          "url": "https://guyaneoccasions.com/vehicule/01KKHETCW55VJ6KQ4Y93BV081W"
+        },
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO",
+          "price": 17900,
+          "km": 50000,
+          "url": "https://guyaneoccasions.com/vehicule/01KP661DCAE0RY3APA8T02W10T"
+        }
+      ]
     },
     {
       "id": "2473357",
@@ -279,7 +294,15 @@
       "km": 13600,
       "hp": 130,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/R7d9oDncjUah9xAA.jpeg",
-      "competitors": []
+      "competitors": [
+        {
+          "source": "GuyaneOccasions",
+          "title": "JEEP RENEGADE",
+          "price": 24900,
+          "km": 38024,
+          "url": "https://guyaneoccasions.com/vehicule/01KPV6KMCJ2M7BNDJ5MN9NXE2Y"
+        }
+      ]
     },
     {
       "id": "3064462",
@@ -335,7 +358,22 @@
       "km": 26300,
       "hp": 91,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/UpTKTQJUahzNyY9e.jpeg",
-      "competitors": []
+      "competitors": [
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO SOCIETE",
+          "price": 12900,
+          "km": 25697,
+          "url": "https://guyaneoccasions.com/vehicule/01KKHETCW55VJ6KQ4Y93BV081W"
+        },
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO",
+          "price": 17900,
+          "km": 50000,
+          "url": "https://guyaneoccasions.com/vehicule/01KP661DCAE0RY3APA8T02W10T"
+        }
+      ]
     },
     {
       "id": "3083817",
@@ -367,7 +405,22 @@
       "km": 67900,
       "hp": 67,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/SCHsKxesnb9YEogn.jpeg",
-      "competitors": []
+      "competitors": [
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO SOCIETE",
+          "price": 12900,
+          "km": 25697,
+          "url": "https://guyaneoccasions.com/vehicule/01KKHETCW55VJ6KQ4Y93BV081W"
+        },
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO",
+          "price": 17900,
+          "km": 50000,
+          "url": "https://guyaneoccasions.com/vehicule/01KP661DCAE0RY3APA8T02W10T"
+        }
+      ]
     },
     {
       "id": "3106575",
@@ -439,7 +492,22 @@
       "km": 60280,
       "hp": 67,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/h2aUjOXrMoXax377.jpeg",
-      "competitors": []
+      "competitors": [
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO SOCIETE",
+          "price": 12900,
+          "km": 25697,
+          "url": "https://guyaneoccasions.com/vehicule/01KKHETCW55VJ6KQ4Y93BV081W"
+        },
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO",
+          "price": 17900,
+          "km": 50000,
+          "url": "https://guyaneoccasions.com/vehicule/01KP661DCAE0RY3APA8T02W10T"
+        }
+      ]
     },
     {
       "id": "3158871",
@@ -719,7 +787,22 @@
       "km": 22515,
       "hp": 90,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/VM8ifiyETtH3TTIi.jpeg",
-      "competitors": []
+      "competitors": [
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO SOCIETE",
+          "price": 12900,
+          "km": 25697,
+          "url": "https://guyaneoccasions.com/vehicule/01KKHETCW55VJ6KQ4Y93BV081W"
+        },
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO",
+          "price": 17900,
+          "km": 50000,
+          "url": "https://guyaneoccasions.com/vehicule/01KP661DCAE0RY3APA8T02W10T"
+        }
+      ]
     },
     {
       "id": "3490599",
@@ -735,7 +818,22 @@
       "km": 110112,
       "hp": 91,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/BQUqtPEEHsYRPZCN.jpeg",
-      "competitors": []
+      "competitors": [
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO SOCIETE",
+          "price": 12900,
+          "km": 25697,
+          "url": "https://guyaneoccasions.com/vehicule/01KKHETCW55VJ6KQ4Y93BV081W"
+        },
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO",
+          "price": 17900,
+          "km": 50000,
+          "url": "https://guyaneoccasions.com/vehicule/01KP661DCAE0RY3APA8T02W10T"
+        }
+      ]
     },
     {
       "id": "3532359",
@@ -919,7 +1017,15 @@
       "km": 71448,
       "hp": 150,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/aAX9vX7nzsQ3kor0.jpeg",
-      "competitors": []
+      "competitors": [
+        {
+          "source": "GuyaneOccasions",
+          "title": "JEEP RENEGADE",
+          "price": 24900,
+          "km": 38024,
+          "url": "https://guyaneoccasions.com/vehicule/01KPV6KMCJ2M7BNDJ5MN9NXE2Y"
+        }
+      ]
     },
     {
       "id": "3860122",
@@ -951,7 +1057,15 @@
       "km": 93082,
       "hp": 95,
       "photo": "",
-      "competitors": []
+      "competitors": [
+        {
+          "source": "GuyaneOccasions",
+          "title": "DACIA LODGY",
+          "price": 18900,
+          "km": 66552,
+          "url": "https://guyaneoccasions.com/vehicule/01KB0JD4QPP0ARXNJDM4ZA54KX"
+        }
+      ]
     },
     {
       "id": "3860124",
@@ -1023,7 +1137,22 @@
       "km": 62121,
       "hp": 136,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/UU94BuaCHpXyHZeH.jpeg",
-      "competitors": []
+      "competitors": [
+        {
+          "source": "GuyaneOccasions",
+          "title": "HYUNDAI TUCSON",
+          "price": 24700,
+          "km": 81187,
+          "url": "https://guyaneoccasions.com/vehicule/01J4VXWKXTB2SKDQ0E0Z632XVF"
+        },
+        {
+          "source": "GuyaneOccasions",
+          "title": "HYUNDAI TUCSON",
+          "price": 26900,
+          "km": 70000,
+          "url": "https://guyaneoccasions.com/vehicule/01KQT8623XAY9MA89KT13V4TNV"
+        }
+      ]
     },
     {
       "id": "3860128",
@@ -1039,7 +1168,22 @@
       "km": 58299,
       "hp": 75,
       "photo": "",
-      "competitors": []
+      "competitors": [
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO SOCIETE",
+          "price": 12900,
+          "km": 25697,
+          "url": "https://guyaneoccasions.com/vehicule/01KKHETCW55VJ6KQ4Y93BV081W"
+        },
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO",
+          "price": 17900,
+          "km": 50000,
+          "url": "https://guyaneoccasions.com/vehicule/01KP661DCAE0RY3APA8T02W10T"
+        }
+      ]
     },
     {
       "id": "3860130",
@@ -1103,7 +1247,22 @@
       "km": 18000,
       "hp": 67,
       "photo": "",
-      "competitors": []
+      "competitors": [
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO SOCIETE",
+          "price": 12900,
+          "km": 25697,
+          "url": "https://guyaneoccasions.com/vehicule/01KKHETCW55VJ6KQ4Y93BV081W"
+        },
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO",
+          "price": 17900,
+          "km": 50000,
+          "url": "https://guyaneoccasions.com/vehicule/01KP661DCAE0RY3APA8T02W10T"
+        }
+      ]
     },
     {
       "id": "3860134",
@@ -1263,7 +1422,22 @@
       "km": 72209,
       "hp": 90,
       "photo": "",
-      "competitors": []
+      "competitors": [
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO SOCIETE",
+          "price": 12900,
+          "km": 25697,
+          "url": "https://guyaneoccasions.com/vehicule/01KKHETCW55VJ6KQ4Y93BV081W"
+        },
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO",
+          "price": 17900,
+          "km": 50000,
+          "url": "https://guyaneoccasions.com/vehicule/01KP661DCAE0RY3APA8T02W10T"
+        }
+      ]
     },
     {
       "id": "3860144",
@@ -1335,7 +1509,15 @@
       "km": 78501,
       "hp": 115,
       "photo": "",
-      "competitors": []
+      "competitors": [
+        {
+          "source": "GuyaneOccasions",
+          "title": "DACIA LODGY",
+          "price": 18900,
+          "km": 66552,
+          "url": "https://guyaneoccasions.com/vehicule/01KB0JD4QPP0ARXNJDM4ZA54KX"
+        }
+      ]
     },
     {
       "id": "3860153",
@@ -1567,7 +1749,22 @@
       "km": 76158,
       "hp": 90,
       "photo": "",
-      "competitors": []
+      "competitors": [
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO SOCIETE",
+          "price": 12900,
+          "km": 25697,
+          "url": "https://guyaneoccasions.com/vehicule/01KKHETCW55VJ6KQ4Y93BV081W"
+        },
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO",
+          "price": 17900,
+          "km": 50000,
+          "url": "https://guyaneoccasions.com/vehicule/01KP661DCAE0RY3APA8T02W10T"
+        }
+      ]
     },
     {
       "id": "3860171",
@@ -1599,7 +1796,22 @@
       "km": 45000,
       "hp": 90,
       "photo": "",
-      "competitors": []
+      "competitors": [
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO SOCIETE",
+          "price": 12900,
+          "km": 25697,
+          "url": "https://guyaneoccasions.com/vehicule/01KKHETCW55VJ6KQ4Y93BV081W"
+        },
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO",
+          "price": 17900,
+          "km": 50000,
+          "url": "https://guyaneoccasions.com/vehicule/01KP661DCAE0RY3APA8T02W10T"
+        }
+      ]
     },
     {
       "id": "3860173",
@@ -1647,7 +1859,15 @@
       "km": 33815,
       "hp": 120,
       "photo": "",
-      "competitors": []
+      "competitors": [
+        {
+          "source": "GuyaneOccasions",
+          "title": "JEEP RENEGADE",
+          "price": 24900,
+          "km": 38024,
+          "url": "https://guyaneoccasions.com/vehicule/01KPV6KMCJ2M7BNDJ5MN9NXE2Y"
+        }
+      ]
     },
     {
       "id": "3860178",
@@ -1767,7 +1987,22 @@
       "km": 42300,
       "hp": 75,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/Rd4YBMmeF9rmSuvi.jpeg",
-      "competitors": []
+      "competitors": [
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO SOCIETE",
+          "price": 12900,
+          "km": 25697,
+          "url": "https://guyaneoccasions.com/vehicule/01KKHETCW55VJ6KQ4Y93BV081W"
+        },
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO",
+          "price": 17900,
+          "km": 50000,
+          "url": "https://guyaneoccasions.com/vehicule/01KP661DCAE0RY3APA8T02W10T"
+        }
+      ]
     },
     {
       "id": "3860188",
@@ -1839,7 +2074,22 @@
       "km": 91700,
       "hp": 72,
       "photo": "",
-      "competitors": []
+      "competitors": [
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO SOCIETE",
+          "price": 12900,
+          "km": 25697,
+          "url": "https://guyaneoccasions.com/vehicule/01KKHETCW55VJ6KQ4Y93BV081W"
+        },
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO",
+          "price": 17900,
+          "km": 50000,
+          "url": "https://guyaneoccasions.com/vehicule/01KP661DCAE0RY3APA8T02W10T"
+        }
+      ]
     },
     {
       "id": "3860193",
@@ -2415,7 +2665,22 @@
       "km": 45500,
       "hp": 67,
       "photo": "",
-      "competitors": []
+      "competitors": [
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO SOCIETE",
+          "price": 12900,
+          "km": 25697,
+          "url": "https://guyaneoccasions.com/vehicule/01KKHETCW55VJ6KQ4Y93BV081W"
+        },
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO",
+          "price": 17900,
+          "km": 50000,
+          "url": "https://guyaneoccasions.com/vehicule/01KP661DCAE0RY3APA8T02W10T"
+        }
+      ]
     },
     {
       "id": "3860238",
@@ -2431,7 +2696,22 @@
       "km": 69475,
       "hp": 90,
       "photo": "",
-      "competitors": []
+      "competitors": [
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO SOCIETE",
+          "price": 12900,
+          "km": 25697,
+          "url": "https://guyaneoccasions.com/vehicule/01KKHETCW55VJ6KQ4Y93BV081W"
+        },
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO",
+          "price": 17900,
+          "km": 50000,
+          "url": "https://guyaneoccasions.com/vehicule/01KP661DCAE0RY3APA8T02W10T"
+        }
+      ]
     },
     {
       "id": "3860240",
@@ -2479,7 +2759,22 @@
       "km": 26263,
       "hp": 85,
       "photo": "",
-      "competitors": []
+      "competitors": [
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO SOCIETE",
+          "price": 12900,
+          "km": 25697,
+          "url": "https://guyaneoccasions.com/vehicule/01KKHETCW55VJ6KQ4Y93BV081W"
+        },
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO",
+          "price": 17900,
+          "km": 50000,
+          "url": "https://guyaneoccasions.com/vehicule/01KP661DCAE0RY3APA8T02W10T"
+        }
+      ]
     },
     {
       "id": "3860248",
@@ -2511,7 +2806,22 @@
       "km": 79716,
       "hp": 76,
       "photo": "",
-      "competitors": []
+      "competitors": [
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO SOCIETE",
+          "price": 12900,
+          "km": 25697,
+          "url": "https://guyaneoccasions.com/vehicule/01KKHETCW55VJ6KQ4Y93BV081W"
+        },
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO",
+          "price": 17900,
+          "km": 50000,
+          "url": "https://guyaneoccasions.com/vehicule/01KP661DCAE0RY3APA8T02W10T"
+        }
+      ]
     },
     {
       "id": "3860250",
@@ -2559,7 +2869,15 @@
       "km": 56971,
       "hp": 115,
       "photo": "",
-      "competitors": []
+      "competitors": [
+        {
+          "source": "GuyaneOccasions",
+          "title": "DACIA LODGY",
+          "price": 18900,
+          "km": 66552,
+          "url": "https://guyaneoccasions.com/vehicule/01KB0JD4QPP0ARXNJDM4ZA54KX"
+        }
+      ]
     },
     {
       "id": "3860256",
@@ -2631,7 +2949,22 @@
       "km": 38801,
       "hp": 90,
       "photo": "",
-      "competitors": []
+      "competitors": [
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO SOCIETE",
+          "price": 12900,
+          "km": 25697,
+          "url": "https://guyaneoccasions.com/vehicule/01KKHETCW55VJ6KQ4Y93BV081W"
+        },
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO",
+          "price": 17900,
+          "km": 50000,
+          "url": "https://guyaneoccasions.com/vehicule/01KP661DCAE0RY3APA8T02W10T"
+        }
+      ]
     },
     {
       "id": "3860260",
@@ -2887,7 +3220,15 @@
       "km": 71200,
       "hp": 115,
       "photo": "",
-      "competitors": []
+      "competitors": [
+        {
+          "source": "GuyaneOccasions",
+          "title": "DACIA LODGY",
+          "price": 18900,
+          "km": 66552,
+          "url": "https://guyaneoccasions.com/vehicule/01KB0JD4QPP0ARXNJDM4ZA54KX"
+        }
+      ]
     },
     {
       "id": "3860285",
@@ -3007,7 +3348,22 @@
       "km": 62500,
       "hp": 100,
       "photo": "",
-      "competitors": []
+      "competitors": [
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO SOCIETE",
+          "price": 12900,
+          "km": 25697,
+          "url": "https://guyaneoccasions.com/vehicule/01KKHETCW55VJ6KQ4Y93BV081W"
+        },
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO",
+          "price": 17900,
+          "km": 50000,
+          "url": "https://guyaneoccasions.com/vehicule/01KP661DCAE0RY3APA8T02W10T"
+        }
+      ]
     },
     {
       "id": "3860301",
@@ -3295,7 +3651,15 @@
       "km": 58041,
       "hp": 115,
       "photo": "",
-      "competitors": []
+      "competitors": [
+        {
+          "source": "GuyaneOccasions",
+          "title": "DACIA LODGY",
+          "price": 18900,
+          "km": 66552,
+          "url": "https://guyaneoccasions.com/vehicule/01KB0JD4QPP0ARXNJDM4ZA54KX"
+        }
+      ]
     },
     {
       "id": "3860326",
@@ -3439,7 +3803,22 @@
       "km": 76565,
       "hp": 85,
       "photo": "",
-      "competitors": []
+      "competitors": [
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO SOCIETE",
+          "price": 12900,
+          "km": 25697,
+          "url": "https://guyaneoccasions.com/vehicule/01KKHETCW55VJ6KQ4Y93BV081W"
+        },
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO",
+          "price": 17900,
+          "km": 50000,
+          "url": "https://guyaneoccasions.com/vehicule/01KP661DCAE0RY3APA8T02W10T"
+        }
+      ]
     },
     {
       "id": "3860337",
@@ -3583,7 +3962,22 @@
       "km": 93695,
       "hp": 91,
       "photo": "",
-      "competitors": []
+      "competitors": [
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO SOCIETE",
+          "price": 12900,
+          "km": 25697,
+          "url": "https://guyaneoccasions.com/vehicule/01KKHETCW55VJ6KQ4Y93BV081W"
+        },
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO",
+          "price": 17900,
+          "km": 50000,
+          "url": "https://guyaneoccasions.com/vehicule/01KP661DCAE0RY3APA8T02W10T"
+        }
+      ]
     },
     {
       "id": "3860348",
@@ -3599,7 +3993,22 @@
       "km": 93975,
       "hp": 91,
       "photo": "",
-      "competitors": []
+      "competitors": [
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO SOCIETE",
+          "price": 12900,
+          "km": 25697,
+          "url": "https://guyaneoccasions.com/vehicule/01KKHETCW55VJ6KQ4Y93BV081W"
+        },
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO",
+          "price": 17900,
+          "km": 50000,
+          "url": "https://guyaneoccasions.com/vehicule/01KP661DCAE0RY3APA8T02W10T"
+        }
+      ]
     },
     {
       "id": "3860350",
@@ -3855,7 +4264,22 @@
       "km": 78074,
       "hp": 75,
       "photo": "",
-      "competitors": []
+      "competitors": [
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO SOCIETE",
+          "price": 12900,
+          "km": 25697,
+          "url": "https://guyaneoccasions.com/vehicule/01KKHETCW55VJ6KQ4Y93BV081W"
+        },
+        {
+          "source": "GuyaneOccasions",
+          "title": "RENAULT CLIO",
+          "price": 17900,
+          "km": 50000,
+          "url": "https://guyaneoccasions.com/vehicule/01KP661DCAE0RY3APA8T02W10T"
+        }
+      ]
     },
     {
       "id": "4008205",
@@ -3871,7 +4295,15 @@
       "km": 29242,
       "hp": 102,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/hrFTjx51oKgHEBG8.jpeg",
-      "competitors": []
+      "competitors": [
+        {
+          "source": "GuyaneOccasions",
+          "title": "DACIA LODGY",
+          "price": 18900,
+          "km": 66552,
+          "url": "https://guyaneoccasions.com/vehicule/01KB0JD4QPP0ARXNJDM4ZA54KX"
+        }
+      ]
     },
     {
       "id": "4016183",
@@ -3919,7 +4351,22 @@
       "km": 91500,
       "hp": 69,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/A607evxid3QvGtWb.jpeg",
-      "competitors": []
+      "competitors": [
+        {
+          "source": "GuyaneOccasions",
+          "title": "FIAT 500",
+          "price": 23900,
+          "km": 16846,
+          "url": "https://guyaneoccasions.com/vehicule/01JBYM9Q7V9WNMCEJ3BSSH9Z2F"
+        },
+        {
+          "source": "GuyaneOccasions",
+          "title": "FIAT 500X",
+          "price": 26900,
+          "km": 5529,
+          "url": "https://guyaneoccasions.com/vehicule/01KSR4F7468033P8XJ3D0906JP"
+        }
+      ]
     },
     {
       "id": "4024925",
