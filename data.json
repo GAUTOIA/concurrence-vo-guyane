@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-29T16:49:01.609456",
+  "updated_at": "2026-06-30T12:06:57.368603",
   "vehicles": [
     {
       "id": "2429847",
@@ -762,7 +762,7 @@
       "bodyType": "Other",
       "fuelType": "essence",
       "registrationDate": "10/2021",
-      "color": "Blanc",
+      "color": "Gris",
       "price": 11999.0,
       "km": 73030,
       "hp": 91,
@@ -4031,22 +4031,6 @@
       "km": 45383,
       "hp": 131,
       "photo": "https://cdn.dealerk.fr/dealer/datafiles/vehicle/images/800/1737/S6iRJZhd2R15UzwP.jpeg",
-      "competitors": []
-    },
-    {
-      "id": "4110308",
-      "externalId": "164_re97c2",
-      "make": "Renault",
-      "model": "TRAFIC",
-      "version": "Combi L1 2.0 Blue dCi 150ch S&S Zen 8 places",
-      "bodyType": "combi",
-      "fuelType": "diesel",
-      "registrationDate": "11/2021",
-      "color": "Blanc",
-      "price": 24999.0,
-      "km": 109968,
-      "hp": 150,
-      "photo": "",
       "competitors": []
     }
   ]
