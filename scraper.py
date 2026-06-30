@@ -143,7 +143,7 @@ def search_cyphoma(make, model):
 
 
 def load_leboncoin_all():
-    """Charge les annonces LeBonCoin Guyane via l'actor Apify clearpath/leboncoin-api."""
+    """Charge les annonces LeBonCoin Guyane via Apify 3x1t/leboncoin-vehicle-scraper-ppe."""
     token = os.environ.get("APIFY_TOKEN", "")
     if not token:
         print("   ⚠ APIFY_TOKEN non défini, LeBonCoin ignoré")
@@ -154,18 +154,19 @@ def load_leboncoin_all():
         client = ApifyClient(token)
 
         run_input = {
-            "searchUrl": "https://www.leboncoin.fr/cl/voitures/rp_guyane",
-            "adLimit": 0,
-            "seller_type": "all",
+            "startUrls": ["https://www.leboncoin.fr/cl/voitures/rp_guyane"],
+            "resultLimitPerThread": 3500,
         }
 
         print("   ⏳ Apify: lancement scraping LeBonCoin (peut prendre 2-3 min)...")
-        run = client.actor("clearpath/leboncoin-api").call(run_input=run_input, timeout_secs=600)
+        run = client.actor("3x1t/leboncoin-vehicle-scraper-ppe").call(run_input=run_input, timeout_secs=600)
 
         all_ads = []
         for item in client.dataset(run["defaultDatasetId"]).iterate_items():
-            price = item.get("price_euros")
-            km_raw = item.get("mileage")
+            price_obj = item.get("price") or {}
+            price = price_obj.get("amount") if isinstance(price_obj, dict) else price_obj
+            attrs = item.get("attributes") or {}
+            km_raw = attrs.get("Mileage (km)") or attrs.get("Kilométrage (km)")
             brand = (item.get("brand") or "").upper()
             ad_model = (item.get("model") or "").upper()
             title = item.get("title", "")
