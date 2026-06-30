@@ -142,7 +142,7 @@ def search_cyphoma(make, model):
     return results
 
 
-def load_leboncoin_all(page, max_pages=3):
+def load_leboncoin_all(page, max_pages=15):
     """Charge les N premières pages de voitures Guyane LeBonCoin en une seule passe."""
     all_ads = []
     base_url = "https://www.leboncoin.fr/cl/voitures/rp_guyane"
@@ -304,8 +304,8 @@ def run_scraping(vehicles):
         guo_page = context.new_page()
 
         # Charger LeBonCoin et GuyaneOccasions UNE SEULE FOIS
-        print("   📥 Chargement LeBonCoin Guyane (3 pages)...")
-        lbc_cache = load_leboncoin_all(lbc_page, max_pages=3)
+        print("   📥 Chargement LeBonCoin Guyane (toutes les pages)...")
+        lbc_cache = load_leboncoin_all(lbc_page, max_pages=15)
         print(f"   → {len(lbc_cache)} annonces LeBonCoin chargées")
 
         print("   📥 Chargement GuyaneOccasions...")
