@@ -159,7 +159,7 @@ def load_leboncoin_all():
         }
 
         print("   ⏳ Apify: lancement scraping LeBonCoin (peut prendre 2-3 min)...")
-        run = client.actor("3x1t/leboncoin-vehicle-scraper-ppe").call(run_input=run_input, timeout_secs=600)
+        run = client.actor("3x1t/leboncoin-vehicle-scraper-ppe").call(run_input=run_input)
 
         all_ads = []
         for item in client.dataset(run["defaultDatasetId"]).iterate_items():
